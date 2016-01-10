@@ -1,7 +1,7 @@
 # HARDmod
 A Spiritual Successor to NARMod - a reimagined Factorio Experience
 
-HARDmod is a Factorio mod compilation which creates a complete experience for advanced players. For those players who have fully experienced vanilla Factorio and are craving increased challenge and complexity in building and crafting their own industrial revolution, HARDmod delivers. HARDmod is complex. HARDmod is not for everyone. HARDmod is HARD.
+HARDmod is a Factorio mod compilation which creates a complete experience for advanced players. For those players who have fully experienced vanilla Factorio and are craving increased challenge and complexity in building and crafting their own industrial revolution, HARDmod delivers that challenge. HARDmod is complex. HARDmod is not for everyone. HARDmod is HARD.
 
 HARDmod primarily makes changes the construction and crafting aspects of the game. HARDmod has limited compatibility with other mods, aside from those it is dependent on. 
 
