@@ -39,4 +39,45 @@ data:extend(
 		order = "b[crushed-copper-ore]",
 		stack_size = 100
 	}
+	{
+		type = "item",
+		name = "subsidiary-ore",
+		icon = "__HARDmod__/placeholder-graphics/icons/plate/subsidiary-ore.png",
+		flags = {"goes-to-main-inventory"},
+		subgroup = "raw-ores",
+		order = "a[subsidiary-ore]",
+		stack_size = 50
+	},
+	
+	-- CONCENTRATED ORE
+	
+	{
+		type = "recipe",
+		name = "iron-concentrate",
+		category = "froth-flotation",
+		energy_required = 20,
+		icon = "__HARDmod__/placeholder-graphics/icons/plate/iron-concentrate.png",
+		subgroup = "raw-ores",
+		ingredients= {
+			{type="item",name="crushed-iron-ore", amount=10},
+			{type="fluid",name="water", amount=10},
+			{type="fluid",name="compressed-air", amount=5}
+		},
+		results= {
+			{type="item", name="iron-concentrate", amount=10},
+			{type="item", name="subsidiary-ore", amount=2},
+			{type="item", name="crushed-stone", amount=8},
+		},
+		enabled = "false"
+	},
+	
+	{
+		type = "item",
+		name = "iron-concentrate",
+		icon = "__HARDmod__/placeholder-graphics/icons/plate/iron-concentrate.png",
+		flags = {"goes-to-main-inventory"},
+		subgroup = "raw-ores",
+		order = "a[iron-concentrate]",
+		stack_size = 50
+	},
 })
