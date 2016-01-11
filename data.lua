@@ -1,1 +1,1 @@
-require("prototypes.treefarmconfig.lua")
+require("prototypes.treefarmconfig")
