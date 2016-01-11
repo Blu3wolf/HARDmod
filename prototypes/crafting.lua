@@ -1,5 +1,9 @@
 data:extend(
 {
+	-- INTERMEDIATES TAB
+	
+	-- PRODUCTION TAB
+	
 	--RAW MATERIALS TAB
 	{
 		type = "item-group",
@@ -19,6 +23,7 @@ data:extend(
 	
 	{ type = "recipe-category", name = "blast-furnace" },
 	{ type = "recipe-category", name = "forge" },
-	{ type = "recipe-category", name = "froth-flotation" }
+	{ type = "recipe-category", name = "froth-flotation" },
+	{ type = "recipe-category", name = "in-hand-crafting" }
 }
 )
