@@ -38,7 +38,7 @@ data:extend(
 		subgroup = "tf-raw-materials",
 		order = "b[crushed-copper-ore]",
 		stack_size = 100
-	}
+	},
 	{
 		type = "item",
 		name = "subsidiary-ore",
@@ -61,12 +61,12 @@ data:extend(
 		ingredients= {
 			{type="item",name="crushed-iron-ore", amount=10},
 			{type="fluid",name="water", amount=10},
-			{type="fluid",name="compressed-air", amount=5}
+			{type="fluid",name="liquid-air", amount=5}
 		},
 		results= {
 			{type="item", name="iron-concentrate", amount=10},
 			{type="item", name="subsidiary-ore", amount=2},
-			{type="item", name="crushed-stone", amount=8},
+			{type="item", name="tf-crushed-stone", amount=8},
 		},
 		enabled = "false"
 	},
