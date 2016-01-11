@@ -1,5 +1,10 @@
 	-- This file makes changes to treefarm-AC and treefarm-Lite
 
+	-- this enables the crusher recipe from the start of the game
+	
+data.raw.recipe["tf-stone-crusher"].enabled = "true"
+data.raw.recipe["tf-crushed-stone"].enabled = "true"
+
 	-- This redefines the fertilizer tech to remove the crusher and crushed stone recipe
 
 data.raw.technology["tf-fertilizer"].effects = {
@@ -41,7 +46,10 @@ data.raw.technology["tf-fertilizer"].effects = {
 	}
 }
 
-	-- this enables the crusher recipe from the start of the game
+	-- This removes the tf-biological-warfare research tech
 	
-data.raw.recipe["tf-stone-crusher"].enabled = "true"
-data.raw.recipe["tf-crushed-stone"].enabled = "true"
+data.raw.technology["tf-biological-warfare"] = nil
+
+	
+
+
