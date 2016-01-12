@@ -1,4 +1,10 @@
 	-- This file makes changes to treefarm-AC and treefarm-Lite
+	
+	-- This changes the some children of the TF itemgroup
+
+data.raw["item-subgroup"]["tf-raw-materials"].group = "raw-materials"
+data.raw["item-subgroup"]["tf-intermediate"].group = "intermediate-products"
+
 
 	-- this enables the crusher recipe from the start of the game
 	
