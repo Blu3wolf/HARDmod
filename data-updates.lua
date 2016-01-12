@@ -1,0 +1,1 @@
+require("prototypes.bobs-config-update")

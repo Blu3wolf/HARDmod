@@ -56,3 +56,4 @@ data.raw.recipe["coal-diamond"] = nil
 data.raw.recipe["crystal-sand"] = nil
 data.raw.recipe["crystal-stone"] = nil
 
+
