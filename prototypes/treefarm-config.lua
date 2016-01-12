@@ -8,11 +8,13 @@ data.raw["item-subgroup"]["tf-intermediate"].group = "intermediate-products"
 	-- This changes the icon of the TF group
 
 data.raw["item-group"]["treefarm"].icon = "__HARDmod__/placeholder-graphics/icons/technology/hydroponic-farms.png"
+
 	-- this enables the crusher recipe from the start of the game
 	
 data.raw.recipe["tf-stone-crusher"].enabled = "true"
 data.raw.recipe["tf-crushed-stone"].enabled = "true"
 data.raw.item["tf-stone-crusher"].subgroup = "production-machine"
+data.raw.item["tf-stone-crusher"].icon = "__HARDmod__/placeholder-graphics/icons/crusher.png"
 
 	-- This redefines the fertilizer tech to remove the crusher and crushed stone recipe
 
