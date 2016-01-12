@@ -5,7 +5,9 @@
 data.raw["item-subgroup"]["tf-raw-materials"].group = "raw-materials"
 data.raw["item-subgroup"]["tf-intermediate"].group = "intermediate-products"
 
+	-- This changes the icon of the TF group
 
+data.raw["item-group"]["treefarm"].icon = "__HARDmod__/placeholder-graphics/icons/technology/hydroponic-farms.png"
 	-- this enables the crusher recipe from the start of the game
 	
 data.raw.recipe["tf-stone-crusher"].enabled = "true"
