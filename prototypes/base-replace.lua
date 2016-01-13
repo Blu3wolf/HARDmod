@@ -53,86 +53,109 @@ data:extend(
 	},
   
   --WORKSHOP
-  
-   {
-    type = "assembling-machine",
-    name = "workshop",
-    icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
-    flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "workshop"},
-    max_health = 200,
-    corpse = "big-remnants",
-    dying_explosion = "medium-explosion",
-    resistances =
-    {
-      {
-        type = "fire",
-        percent = 70
-      }
-    },
-    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
-    selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    animation=
-    {
-      filename= "__HARDmod__/placeholder-graphics/entity/workshop/workshop.png",
-      priority= "medium",
-      width= 212,
-      height= 180,
-      line_length= 5,
-      frame_count= 1,
-	  shift = {0.8, 0.18}
-    },
-    crafting_categories = {"workshop-crafting"},
-    crafting_speed = 0.25,
-    energy_source =
-    {
-      type = "burner",
-      effectivity = 1,
-      fuel_inventory_size = 1,
-      emissions = 0.01,
-      smoke =
-      {
-        {
-          name = "smoke",
-          deviation = {0.1, 0.1},
-          frequency = 0.5,
-          position = {0, 0},
-          starting_vertical_speed = 0.05
-        }
-      }
-    },
-    energy_usage = "90kW",
-    ingredient_count = 8,
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    working_sound =
-    {
-      sound = {
-        {
-          filename = "__base__/sound/assembling-machine-t1-1.ogg",
-          volume = 0.8
-        },
-        {
-          filename = "__base__/sound/assembling-machine-t1-2.ogg",
-          volume = 0.8
-        },
-      },
-      idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
-    }
-  },
 	
-	  {
-    type = "item",
-    name = "workshop",
-	subgroup = "alt-production",
-	order = "a",
-    icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
-    flags = {"goes-to-quickbar"},
-    order = "e[workshop]",
-    place_result = "workshop",
-    stack_size = 5
-  },
+	{
+		type = "decorative",
+		name = "workshop-placeable",
+		flags = 
+		{
+			"placeable-neutral",
+			"placeable-player",
+		},
+		icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
+		selectable_in_game = false,
+		render_layer = "decorative",
+		order = "e[workshop]",
+		pictures = 
+		{
+			{
+				filename = "__HARDmod__/placeholder-graphics/entity/workshop/workshop.png",
+				width = 212,
+				height = 180,
+			}
+		}
+	},
+	
+	{
+		type = "assembling-machine",
+		name = "workshop",
+		icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
+		flags = {"player-creation"},
+		minable = {hardness = 0.2, mining_time = 0.5, result = "workshop"},
+		max_health = 200,
+		corpse = "big-remnants",
+		dying_explosion = "medium-explosion",
+		resistances =
+		{
+			{
+				type = "fire",
+				percent = 70
+			}
+		},
+		--collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
+		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+		animation=
+		{
+			filename= "__HARDmod__/graphics/entity/workshop/workshop-blank.png",
+			priority= "medium",
+			width= 1,
+			height= 1,
+			line_length= 5,
+			frame_count= 1,
+			--shift = {0.8, 0.18}
+		},
+		crafting_categories = {"workshop-crafting"},
+		crafting_speed = 0.25,
+		energy_source =
+		{
+			type = "burner",
+			effectivity = 1,
+			fuel_inventory_size = 1,
+			emissions = 0.01,
+			smoke =
+			{
+				{
+					name = "smoke",
+					deviation = {0.1, 0.1},
+					frequency = 0.5,
+					position = {0, 0},
+					starting_vertical_speed = 0.05
+				}
+			}
+		},
+		energy_usage = "90kW",
+		ingredient_count = 8,
+		open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+		close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+		working_sound =
+		{
+			sound = 
+			{
+				{
+					filename = "__base__/sound/assembling-machine-t1-1.ogg",
+					volume = 0.8
+				},
+				{
+					filename = "__base__/sound/assembling-machine-t1-2.ogg",
+					volume = 0.8
+				},
+			},
+		idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
+		apparent_volume = 1.5,
+		}
+	},
+	
+	{
+		type = "item",
+		name = "workshop",
+		subgroup = "alt-production",
+		order = "a",
+		icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
+		flags = {"goes-to-quickbar"},
+		order = "e[workshop]",
+		place_result = "workshop-placeable",
+		stack_size = 5
+	},
 	
 	{
 		type = "recipe",
