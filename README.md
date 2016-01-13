@@ -17,6 +17,8 @@ HARDmod also requires the following mods installed to work correctly:
 HARDmod is created by Bill 'Blu3wolf' Teale as a spiritual successor to NARMod by damienreave. All content of HARDmod, with the exception of certain graphics and models, is Copyright (C) 2016 Bill 'Blu3wolf' Teale. 
     
 Certain graphics and designs contained in HARDmod were originally published in F-mod. These graphics and designs are Copyright (C) 2013 Ficolas. 
+
+Certain placeholder graphics contained in HARDmod alpha versions were originally published in NARMod. These graphics are intended to be replaced prior to a new release, and are Copyright (C) 2015 Damien Reave.
     
 All other content is Copyright (C) 2016  Bill 'Blu3wolf' Teale.
 
