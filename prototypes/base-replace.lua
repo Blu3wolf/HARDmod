@@ -93,7 +93,7 @@ data:extend(
 			}
 		},
 		--collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
-		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+		selection_box = {{-2.5, -2.5}, {2.0, 2.5}},
 		animation=
 		{
 			filename= "__HARDmod__/graphics/entity/workshop/workshop-blank.png",
