@@ -138,35 +138,35 @@ data:extend(
   
 	
 	--RAW MATERIALS TAB
-	{
+	--[[{
 		type = "item-group",
 		name = "raw-materials",
 		order = "z",
 		inventory_order = "a-b",
 		icon = "__HARDmod__/placeholder-graphics/icons/technology/raw-materials.png",
-	},
+	},]]--
 	{
 		type = "item-subgroup",
 		name = "raw-ores",
-		group = "raw-materials",
+		group = "bob-resource-products",
 		order = "a"
 	},
 	{
 		type = "item-subgroup",
 		name = "raw-alloy",
-		group = "raw-materials",
+		group = "bob-resource-products",
 		order = "b"
 	},
 	{
 		type = "item-subgroup",
 		name = "raw-plates",
-		group = "raw-materials",
+		group = "bob-resource-products",
 		order = "a"
 	},
     {
 		type = "item-subgroup",
 		name = "molten-metals",
-		group = "raw-materials",
+		group = "bob-resource-products",
 		order = "d",
 	},
 	
