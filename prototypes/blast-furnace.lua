@@ -13,7 +13,7 @@ data:extend(
 			result = "blast-furnace"
 		},
 		crafting_categories = { "blast-furnace" },
-		max_health = 150,
+		max_health = 1500,
 		corpse = "big-remnants",
 		dying_explosion = "medium-explosion",
 		ingredient_count = 3,
