@@ -56,4 +56,37 @@ data.raw.recipe["coal-diamond"] = nil
 data.raw.recipe["crystal-sand"] = nil
 data.raw.recipe["crystal-stone"] = nil
 
+--dytech metallurgy
 
+data.raw.recipe["metallurgy-copper-smelt"] = nil
+data.raw.recipe["metallurgy-iron-smelt"] = nil
+data.raw.recipe["metallurgy-ardite-smelt"] = nil
+data.raw.recipe["metallurgy-gold-smelt"] = nil
+data.raw.recipe["metallurgy-cobalt-smelt"] = nil
+data.raw.recipe["metallurgy-lead-smelt"] = nil
+data.raw.recipe["metallurgy-silver-smelt"] = nil
+data.raw.recipe["metallurgy-steel-smelt"] = nil
+data.raw.recipe["metallurgy-tin-smelt"] = nil
+data.raw.recipe["metallurgy-tungsten-smelt"] = nil
+data.raw.recipe["metallurgy-zinc-smelt"] = nil
+
+data.raw.technology["lava-02"] = nil
+data.raw.technology["lava-03"] = nil
+data.raw.technology["lava-04"] = nil
+data.raw.technology["molten-machine-1"] = nil
+data.raw.technology["molten-machine-2"] = nil
+data.raw.technology["molds-belt-1"] = nil
+data.raw.technology["molds-belt-2"] = nil
+data.raw.technology["molds-belt-3"] = nil
+data.raw.technology["molds-belt-4"] = nil
+data.raw.technology["molds-machine"] = nil
+data.raw.technology["molds-tool"] = nil
+data.raw.technology["molds-circuit"] = nil
+data.raw.technology["molds-ammo"] = nil
+data.raw.technology["molds-wire"] = nil
+data.raw.technology["molds-gear"] = nil
+data.raw.technology["molds-rotor"] = nil
+data.raw.technology["molds-exit"] = nil
+data.raw.technology["molds-frame"] = nil
+data.raw.technology["molds-blade"] = nil
+data.raw.technology["molds-science"] = nil
