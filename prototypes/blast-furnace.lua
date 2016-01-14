@@ -1,3 +1,6 @@
+data.raw["assembling-machine"]["blast-furnace"] = nil
+data.raw.recipe["blast-furnace"] = nil
+
 data:extend(
 {
 	{
@@ -90,12 +93,12 @@ data:extend(
 		result = "blast-furnace",
 		ingredients = 
 		{
-			{"advanced-circuit", 10},
-			{"steel-plate", 50},
-			{"copper-plate", 100},
-			{"iron-plate", 100},
-			{"silver-plate", 50},
-			{"copper-cable", 10}
+			{"iron-plate", 30},
+			--{"stone-brick", 20},
+			{"copper-cable", 20},
+			--{"storage-tank-2", 2},
+			--{"turbine", 2},
+			--{"crucible", 4}
 		},
 		energy_required = 60,
 		enabled = "false",
