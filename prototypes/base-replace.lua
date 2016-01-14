@@ -40,7 +40,7 @@ data:extend(
     },
     durability = 2000,
     subgroup = "tool",
-    order = "a[mining]-a[iron-axe]",
+    order = "a[mining]-a[wood-axe]",
     speed = 2,
     stack_size = 5
   },
