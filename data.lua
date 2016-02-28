@@ -1,6 +1,8 @@
+require("scripts.prototype-functions")
+
 require("prototypes.treefarm-config")
 require("prototypes.bobs-config")
-require("prototypes.dytech-config")
+--require("prototypes.dytech-config")
 
 require("prototypes.categories")
 require("prototypes.base-replace")
