@@ -90,3 +90,68 @@ data.raw.technology["molds-exit"] = nil
 data.raw.technology["molds-frame"] = nil
 data.raw.technology["molds-blade"] = nil
 data.raw.technology["molds-science"] = nil
+
+--This removes obsidian
+
+RemoveFromRecipe("assembling-machine-7", "obsidian")
+--data.raw.item["obsidian"] = nil
+data.raw.recipe["obsidian"] = nil
+data.raw.recipe["obsidian-processing"] = nil
+
+--This overrides the dytech base overrides
+
+--This removes the Dytech intermediates category
+
+data.raw["item-group"]["dytech-intermediates"] = nil
+
+-- And this moves the subgroups to the regular intermediates category
+
+data.raw["item-subgroup"]["dytech-intermediates-raw"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-processing"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-processed"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-repair"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-tools"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-gears"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-machine"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-power"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-circuitry"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-tank"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-molds"].group = "intermediate-products"
+data.raw["item-subgroup"]["dytech-intermediates-enemies"].group = "intermediate-products"
+
+-- This removes the Dytech inserters category
+
+data.raw["item-group"]["dytech-inserters"] = nil
+
+-- and this moves the subgroups to the regular logistics category
+
+data.raw["item-subgroup"]["inserters-dytech-1"].group = "logistics"
+data.raw["item-subgroup"]["inserters-dytech-2"].group = "logistics"
+data.raw["item-subgroup"]["inserters-dytech-3"].group = "logistics"
+data.raw["item-subgroup"]["inserters-dytech-4"].group = "logistics"
+data.raw["item-subgroup"]["inserters-dytech-5"].group = "logistics"
+data.raw["item-subgroup"]["inserters-dytech-6"].group = "logistics"
+data.raw["item-subgroup"]["inserters-dytech-7"].group = "logistics"
+data.raw["item-subgroup"]["inserters-dytech-8"].group = "logistics"
+
+-- This removes the Dytech Machines Category
+
+data.raw["item-group"]["dytech-machines"] = nil
+
+-- And this moves the subgroups to the regular production category
+
+data.raw["item-subgroup"]["dytech-machines-belts"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-chest"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-smart"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-logistic"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-logistic-chest"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-cleaning"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-furnace"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-assembling"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-extractors"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-transport"].group = "production"
+data.raw["item-subgroup"]["dytech-machines-metallurgy"].group = "production"
+data.raw["item-subgroup"]["metallurgy-machines"].group = "production"
+
+
+
