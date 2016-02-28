@@ -10,62 +10,81 @@ data:extend(
 		group = "production",
 		order = "e"
 	},
+	{
+		type = "item-subgroup",
+		name = "lab",
+		group = "production",
+		order = "z"
+	},
+  
+	{
+		type = "item-subgroup",
+		name = "air",
+		group = "production",
+		order = "x"
+	},
+	{
+		type = "item-subgroup",
+		name = "oil-refining",
+		group = "production",
+		order = "w"
+	},
 	
 		-- POWER TAB
 
 	{
-    type = "item-group",
-    name = "power",
-    order = "c-m",
-    inventory_order = "d-m",
-    icon = "__HARDmod__/placeholder-graphics/icons/technology/power-group.png",
-  },
+		type = "item-group",
+		name = "power",
+		order = "c-m",
+		inventory_order = "d-m",
+		icon = "__HARDmod__/placeholder-graphics/icons/technology/power-group.png",
+	},
   
-      {
-    type = "item-subgroup",
-    name = "power-source",
-    group = "power",
-    order = "a"
-  },
+    {
+		type = "item-subgroup",
+		name = "power-source",
+		group = "power",
+		order = "a"
+	},
   
-  {
-    type = "item-subgroup",
-    name = "power-lamp",
-    group = "power",
-    order = "b"
-  },
+	{
+		type = "item-subgroup",
+		name = "power-lamp",
+		group = "power",
+		order = "b"
+	},
   
-  {
-    type = "item-subgroup",
-    name = "power-fuels",
-    group = "power",
-    order = "c"
-  },
+	{
+		type = "item-subgroup",
+		name = "power-fuels",
+		group = "power",
+		order = "c"
+	},
   
-  {
-    type = "item-subgroup",
-    name = "power-lines",
-    group = "power",
-    order = "d"
-  },
+	{
+		type = "item-subgroup",
+		name = "power-lines",
+		group = "power",
+		order = "d"
+	},
   
-  {
-    type = "item-subgroup",
-    name = "power-nuclear-1",
-    group = "power",
-    order = "e"
-  },
+	{
+		type = "item-subgroup",
+		name = "power-nuclear-1",
+		group = "power",
+		order = "e"
+	},
   
-  {
-    type = "item-subgroup",
-    name = "power-nuclear-2",
-    group = "power",
-    order = "f"
-  },
+	{
+		type = "item-subgroup",
+		name = "power-nuclear-2",
+		group = "power",
+		order = "f"
+	},
   
     -- FLUIDS / CHEMICALS / ELEMENTS TAB
   
-    {
+   --[[ {
     type = "item-group",
     name = "fluids",
     order = "c-f",
@@ -73,69 +92,73 @@ data:extend(
     icon = "__HARDmod__/placeholder-graphics/icons/technology/fluids.png",
   },
   
+  --]]
+  
+  ---[[
+  
   {
     type = "item-subgroup",
     name = "chemicals",
-    group = "fluids",
+    group = "bob-fluid-products",
     order = "a"
   },
   
   {
     type = "item-subgroup",
     name = "chemicals-microchip",
-    group = "fluids",
+    group = "bob-fluid-products",
     order = "q"
   },
   
   {
     type = "item-subgroup",
     name = "evaporation",
-    group = "fluids",
+    group = "bob-fluid-products",
     order = "z"
   },
   
   {
     type = "item-subgroup",
     name = "fluids-oil-processing",
-    group = "fluids",
+    group = "bob-fluid-products",
     order = "m"
   },
   
   {
     type = "item-subgroup",
     name = "chemical-electrolysis",
-    group = "fluids",
+    group = "bob-fluid-products",
     order = "n"
   },
   
   {
     type = "item-subgroup",
     name = "chemical-furnace",
-    group = "fluids",
+    group = "bob-fluid-products",
     order = "g"
   },
   
   {
     type = "item-subgroup",
     name = "chemistry",
-    group = "fluids",
+    group = "bob-fluid-products",
     order = "g"
   },
   
   {
     type = "item-subgroup",
     name = "liquid-to-gas",
-    group = "fluids",
+    group = "bob-fluid-products",
     order = "b"
   },
   
   {
     type = "item-subgroup",
     name = "gasses",
-    group = "fluids",
+    group = "bob-fluid-products",
     order = "a"
   },
-  
+  --]]
 	
 	--RAW MATERIALS TAB
 	--[[{
@@ -144,7 +167,10 @@ data:extend(
 		order = "z",
 		inventory_order = "a-b",
 		icon = "__HARDmod__/placeholder-graphics/icons/technology/raw-materials.png",
-	},]]--
+	},
+	
+	--]]
+	
 	{
 		type = "item-subgroup",
 		name = "raw-ores",
