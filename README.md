@@ -1,24 +1,27 @@
 # HARDmod
 A Spiritual Successor to NARMod - a reimagined Factorio Experience
 
-HARDmod is a Factorio mod compilation which creates a complete experience for advanced players. For those players who have fully experienced vanilla Factorio and are craving increased challenge and complexity in building and crafting their own industrial revolution, HARDmod delivers that challenge. HARDmod is complex. HARDmod is not for everyone. HARDmod is HARD.
+HARDmod is a Factorio mod which creates a complete experience for advanced players. For those players who have fully experienced vanilla Factorio and are craving increased challenge and complexity in building and crafting their own industrial revolution, HARDmod delivers that challenge. HARDmod is complex. HARDmod is not for everyone. HARDmod is HARD.
 
-HARDmod primarily makes changes to the construction and crafting aspects of the game. HARDmod has limited compatibility with other mods, aside from those it is dependent on. 
+HARDmod primarily makes changes to the construction and crafting aspects of the game. Hand crafting is almost entirely disabled! This drives a push towards automation almost immediately, although the starting game is far slower than vanilla. Chemical production is a major factor in the mid game, and metallurgy is a key focus for the mod, with a variety of real metals and ores to smelt. Prospecting will be important, given the rarity of ores - trains WILL be essential to collect useful ores from distant mines. In the late game, the large scale macro focus Factorio lends itself to will be familiar, with a few differences players of Bob's mods will be used to. Modules are used to improve factories on the macro scale, with the player aiming to complete the rocket to space, completing the game! As with all playthroughs though, it isnt about the destination... its about how you get there!
+
+HARDmod has limited compatibility with other mods, aside from those it is dependent on. In general, large scale overhaul mods are unsupported and will not work well. Small scale mods which only change a small part of the game, may work, but are unsupported unless specifically stated otherwise.
 
 HARDmod contains content originally released as part of F-mod, by ficolas. 
 
 HARDmod also requires the following mods installed to work correctly:
 * Treefarm by drs9999
-* Dytech by Dysoch
 * Bob's Ores
 * Bob's Minerals, Chemicals and Elements
 * Bob's Electronics
 
 HARDmod is created by Bill 'Blu3wolf' Teale as a spiritual successor to NARMod by damienreave. All content of HARDmod, with the exception of certain graphics and models, is Copyright (C) 2016 Bill 'Blu3wolf' Teale. 
     
-Certain graphics and designs contained in HARDmod were originally published in F-mod. These graphics and designs are Copyright (C) 2013 Ficolas. 
+Certain graphics and designs contained in HARDmod were originally published in F-mod. These graphics and designs are Copyright (C) 2013 Ficolas, and are used under license. 
 
-Certain placeholder graphics contained in HARDmod alpha versions were originally published in NARMod. These graphics are intended to be replaced prior to a new release, and are Copyright (C) 2015 Damien Reave.
+Some placeholder graphics contained in HARDmod alpha versions were originally published in DyTech. These placeholder graphics are Copyright (C) 2014 Dysoch, and will be removed before the full release. 
+
+Certain placeholder graphics contained in HARDmod alpha versions were originally published in NARMod. These placeholder graphics are Copyright (C) 2015 Damien Reave, and will be removed before the full release.
     
 All other content is Copyright (C) 2016  Bill 'Blu3wolf' Teale.
 
@@ -33,5 +36,5 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along
-with these scripts; if not, write to the Free Software Foundation, Inc.,
+with the files making up this mod; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
