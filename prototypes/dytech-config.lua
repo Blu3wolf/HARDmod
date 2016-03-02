@@ -47,7 +47,9 @@ data.raw.recipe["logic-diamond"] = nil
 data.raw.recipe["logic-diamond-processor"] = nil
 data.raw.technology["logic-diamond-processor"] = nil
 
-data.raw.recipe["coal-ruby"] = nil
+-- this is the needed part to remove the error in assignID, 'item with name raw-ruby does not exist'
+
+--[[data.raw.recipe["coal-ruby"] = nil
 data.raw.recipe["coal-sapphire"] = nil
 data.raw.recipe["coal-emerald"] = nil
 data.raw.recipe["coal-topaz"] = nil
@@ -55,6 +57,8 @@ data.raw.recipe["coal-diamond"] = nil
 
 data.raw.recipe["crystal-sand"] = nil
 data.raw.recipe["crystal-stone"] = nil
+
+--]]
 
 --dytech metallurgy
 
