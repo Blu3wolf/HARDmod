@@ -6,6 +6,8 @@ require("prototypes.bobs-config")
 
 require("prototypes.categories")
 require("prototypes.base-replace")
+require("prototypes.resources")
+require("prototypes.ores")
 --require("prototypes.concrete")
 require("prototypes.metallurgy")
 require("prototypes.intermediates")
