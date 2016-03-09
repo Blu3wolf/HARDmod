@@ -17,7 +17,7 @@ data:extend(
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "copper-ore",
+      control = "chalcocite",
       sharpness = 1,
       richness_multiplier = 13000,
       richness_base = 350,
