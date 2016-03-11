@@ -5,7 +5,9 @@ data:extend(
     name = "chalcocite",
     richness = true,
     order = "b-a"
-  }--[[,
+  }
+  
+  --[[
   {
     type = "autoplace-control",
     name = "copper-ore",
@@ -35,6 +37,8 @@ data:extend(
     name = "enemy-base",
     richness = true,
     order = "d-a"
-  },--]]
+  },
+  
+  --]]
 }
 )
