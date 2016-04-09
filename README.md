@@ -10,7 +10,7 @@ HARDmod has limited compatibility with other mods, aside from those it is depend
 HARDmod contains content originally released as part of F-mod, by ficolas. 
 
 HARDmod also requires the following mods installed to work correctly:
-* Treefarm by drs9999
+* Treefarm
 * Bob's Ores
 * Bob's Minerals, Chemicals and Elements
 * Bob's Electronics
@@ -25,16 +25,8 @@ Certain placeholder graphics contained in HARDmod alpha versions were originally
     
 All other content is Copyright (C) 2016  Bill 'Blu3wolf' Teale.
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. 
 
-You should have received a copy of the GNU General Public License along
-with the files making up this mod; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+You should have received a copy of the GNU General Public License along with the files making up this mod; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
