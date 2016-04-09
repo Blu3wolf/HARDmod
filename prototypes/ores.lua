@@ -2,216 +2,216 @@ data:extend(
 	{
 		{
 			type = "item",
-			name = "chalcocite-ore",
+			name = "chalcocite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[chalcocite-ore]",
+			order = "f[chalcocite]",
 			stack_size = 50
 		},
 		
 		{
 			type = "item",
-			name = "acanthite-ore",
+			name = "acanthite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[acanthite-ore]",
+			order = "f[acanthite]",
 			stack_size = 50
 		},
 		
 		{
 			type = "item",
-			name = "cerussite-ore",
+			name = "cerussite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[cerussite-ore]",
+			order = "f[cerussite]",
 			stack_size = 50
 		},
 		
 		{
 			type = "item",
-			name = "bauxite-ore",
+			name = "bauxite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[bauxite-ore]",
+			order = "f[bauxite]",
 			stack_size = 50
 		},
 		
 		{
 			type = "item",
-			name = "cassiterite-ore",
+			name = "cassiterite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[cassiterite-ore]",
-			stack_size = 50
-		},
-		
-		
-		{
-			type = "item",
-			name = "stannite-ore",
-			icon = "__base__/graphics/icons/copper-ore.png",
-			flags = {"goes-to-main-inventory"},
-			subgroup = "raw-resource",
-			order = "f[stannite-ore]",
+			order = "f[cassiterite]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "sphalerite-ore",
+			name = "stannite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[sphalerite-ore]",
+			order = "f[stannite]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "galena-ore",
+			name = "sphalerite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[galena-ore]",
+			order = "f[sphalerite]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "gold-ore",
+			name = "galena",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[gold-ore]",
+			order = "f[galena]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "anthracite-ore",
+			name = "gold",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[anthracite-ore]",
+			order = "f[gold]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "ilmenite-ore",
+			name = "anthracite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[ilmenite-ore]",
+			order = "f[anthracite]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "malachite-ore",
+			name = "ilmenite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[malachite-ore]",
+			order = "f[ilmenite]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "chalcopyrite-ore",
+			name = "malachite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[chalcopyrite-ore]",
+			order = "f[malachite]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "copper-metal-ore",
+			name = "chalcopyrite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[copper-metal-ore]",
+			order = "f[chalcopyrite]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "pyrite-ore",
+			name = "copper-metal",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[pyrite-ore]",
+			order = "f[copper-metal]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "goethite-ore",
+			name = "pyrite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[goethite-ore]",
+			order = "f[pyrite]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "gold-metal-ore",
+			name = "goethite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[gold-metal-ore]",
+			order = "f[goethite]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "rutile-ore",
+			name = "gold-metal",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[rutile-ore]",
+			order = "f[gold-metal]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "wolframite-ore",
+			name = "rutile",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[wolframite-ore]",
+			order = "f[rutile]",
 			stack_size = 50
 		},
 		
 		
 		{
 			type = "item",
-			name = "sylvite-ore",
+			name = "wolframite",
 			icon = "__base__/graphics/icons/copper-ore.png",
 			flags = {"goes-to-main-inventory"},
 			subgroup = "raw-resource",
-			order = "f[sylvite-ore]",
+			order = "f[wolframite]",
+			stack_size = 50
+		},
+		
+		
+		{
+			type = "item",
+			name = "sylvite",
+			icon = "__base__/graphics/icons/copper-ore.png",
+			flags = {"goes-to-main-inventory"},
+			subgroup = "raw-resource",
+			order = "f[sylvite]",
 			stack_size = 50
 		}
 		
