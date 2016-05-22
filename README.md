@@ -15,9 +15,9 @@ HARDmod also requires the following mods installed to work correctly:
 * Treefarm
 * Bob's Library
 * Bob's Minerals, Chemicals and Elements
-* Bob's Electronics
+* Bob's Modules
 
-Bob's Library must be enabled in the game UI for HARDmod to function correctly. Bob's Electronics and MCI mods must be disabled in the game UI for HARDmod to function correctly, but the mod folders must still be present! This is to avoid distributing unlicensed content of those mods, specifically certain graphics are not included with HARDmod that are originally part of Bob's mods.
+Bob's Library must be enabled in the game UI for HARDmod to function correctly. Bob's MCI and Modules mods must be disabled in the game UI for HARDmod to function correctly, but the mod folders must still be present! This is to avoid distributing unlicensed content of those mods, specifically certain graphics are not included with HARDmod that are originally part of Bob's mods.
 
 HARDmod is created by Bill 'Blu3wolf' Teale as a spiritual successor to NARMod by damienreave. All content of HARDmod, with the exception of certain graphics and models, is Copyright (C) 2016 Bill 'Blu3wolf' Teale. 
     
