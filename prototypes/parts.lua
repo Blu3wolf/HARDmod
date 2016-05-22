@@ -101,7 +101,7 @@ data:extend(
     {
     type = "item",
     name = "arc-welding-electrode",
-    icon = "__HARDmod__/graphics/icons/arc-welding-electrode.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/arc-welding-electrode.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "c-b-a[arc-welding-electrode]",
