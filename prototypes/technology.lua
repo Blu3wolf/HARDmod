@@ -51,7 +51,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "material-processing",
-		icon = "__HARDmod__/graphics/icons/technology/froth-flotation-unit.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/technology/froth-flotation-unit.png",
 		prerequisites= {"air-compressor"},
 		unit =
 			{

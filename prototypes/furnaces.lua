@@ -5,7 +5,7 @@ data:extend({
  {
     type = "assembling-machine",
     name = "froth-flotation-unit",
-    icon = "__HARDmod__/graphics/icons/froth-flotation-unit.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/froth-flotation-unit.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "froth-flotation-unit"},
     corpse = "big-remnants",
@@ -57,7 +57,7 @@ data:extend({
     {
       north =
       {
-        filename = "__HARDmod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-1.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/froth-flotation-unit/froth-flotation-unit-1.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -65,7 +65,7 @@ data:extend({
       },
       west =
       {
-        filename = "__HARDmod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-2.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/froth-flotation-unit/froth-flotation-unit-2.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -73,7 +73,7 @@ data:extend({
       },
       south =
       {
-        filename = "__HARDmod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-1.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/froth-flotation-unit/froth-flotation-unit-1.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -81,7 +81,7 @@ data:extend({
       },
       east =
       {
-        filename = "__HARDmod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-2.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/froth-flotation-unit/froth-flotation-unit-2.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -105,7 +105,7 @@ data:extend({
 {
     type = "item",
     name = "froth-flotation-unit",
-    icon = "__HARDmod__/graphics/icons/froth-flotation-unit.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/froth-flotation-unit.png",
     flags = {"goes-to-quickbar"},
     order = "e[froth-flotation-unit]",
 	subgroup = "alt-production",
