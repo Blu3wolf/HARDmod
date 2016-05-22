@@ -14,7 +14,7 @@ data:extend(
 		{
     type = "item",
     name = "basic-pump",
-    icon = "__HARDmod__/graphics/icons/basic-pump.png",
+    icon = "__bobplates__/graphics/icons/water-pump.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "a[basic-pump]",
