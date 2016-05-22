@@ -39,7 +39,7 @@ data:extend(
   	{
     type = "item",
     name = "storage-tank-2",
-    icon = "__HARDmod__/graphics/icons/storage-tank-2.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/storage-tank-2.png",
     flags = {"goes-to-main-inventory"},
 	order = "a[storage-tank]",
     subgroup = "intermediate-product",
@@ -63,7 +63,7 @@ data:extend(
   {
     type = "item",
     name = "steel-parts",
-    icon = "__HARDmod__/graphics/icons/steel-parts.png",
+    icon = "__bobplates__/graphics/icons/steel-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-gears",
     order = "b[parts]",
@@ -159,7 +159,7 @@ data:extend(
   {
     type = "item",
     name = "ceramic-ball-bearing",
-    icon = "__HARDmod__/graphics/icons/ceramic-ball-bearing.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/ceramic-ball-bearing.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-bearings",
     order = "b[ball-bearing-ceramic]",
@@ -169,7 +169,7 @@ data:extend(
   {
     type = "item",
     name = "ceramic-bearing",
-    icon = "__HARDmod__/graphics/icons/ceramic-bearing.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/ceramic-bearing.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-bearings",
     order = "b[bearing-ceramic]",
@@ -249,7 +249,7 @@ data:extend(
 	{
 		type = "item",
 		name = "iron-drill",
-		icon = "__HARDmod__/graphics/icons/iron-drill.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/iron-drill.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "intermediate-product",
 		order = "a",
@@ -298,7 +298,7 @@ data:extend(
     type = "item",
     name = "small-electric-motor",
 	flags = {"goes-to-main-inventory"},
-    icon = "__HARDmod__/graphics/icons/small-electric-motor.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/small-electric-motor.png",
     subgroup = "intermediate-product",
     order = "e",
     stack_size = 20
@@ -324,7 +324,7 @@ data:extend(
     name = "electric-motor",
 	energy_required = 5,
 	flags = {"goes-to-main-inventory"},
-    icon = "__HARDmod__/graphics/icons/electric-motor.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/electric-motor.png",
     subgroup = "intermediate-product",
     order = "e",
     stack_size = 20
@@ -351,7 +351,7 @@ data:extend(
     type = "item",
     name = "large-electric-motor",
 	flags = {"goes-to-main-inventory"},
-    icon = "__HARDmod__/graphics/icons/large-electric-motor.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/large-electric-motor.png",
     subgroup = "intermediate-product",
     order = "e",
     stack_size = 20
@@ -375,7 +375,7 @@ data:extend(
     type = "item",
     name = "rotor-blade",
 	flags = {"goes-to-main-inventory"},
-    icon = "__HARDmod__/graphics/icons/rotor-blade.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/rotor-blade.png",
     subgroup = "intermediate-product",
     order = "e",
     stack_size = 20

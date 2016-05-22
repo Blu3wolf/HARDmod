@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "gold-plate",
-    icon = "__HARDmod__/graphics/icons/plate/gold-plate.png",
+    icon = "__bobplates__/graphics/icons/plate/gold-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-plates",
     order = "c-a-d[gold-plate]",
@@ -13,7 +13,7 @@ data:extend(
   {
     type = "item",
     name = "aluminium-plate",
-    icon = "__HARDmod__/graphics/icons/plate/aluminium-plate.png",
+    icon = "__bobplates__/graphics/icons/plate/aluminium-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-plates",
     order = "c-a-g[aluminium-plate]",

@@ -52,7 +52,6 @@ data.raw["item"]["chemical-plant"].stack_size = 3
 data.raw["item"]["plastic-bar"].stack_size = 50
 data.raw["ammo"]["cannon-shell"].stack_size = 250
 data.raw["gun"]["submachine-gun"].stack_size = 50
-data.raw["capsule"]["healing-pack"].stack_size = 20
 data.raw["item"]["night-vision-equipment"].stack_size = 50
 data.raw["item"]["land-mine"].stack_size = 50
 data.raw["item"]["night-vision-equipment"].stack_size = 50

@@ -4,6 +4,6 @@
   "title": "HARDmod",
   "author": "Bill 'Blu3wolf' Teale",
   "contact": "http://www.github.com/Blu3wolf/HARDmod",
-  "description": "Expands upon popular industry mods to enable complex gameplay. Note that Bobs MCI and Bobs Electronics are hard dependencies!",
+  "description": "Expands upon popular industry mods to enable complex gameplay. Note that Bob's MCI, Bob's Modules and Bob's Electronics must be installed, but disabled!",
   "dependencies": ["base >= 0.12.3", "Treefarm-Lite", "Treefarm-AC", "boblibrary"]
 }

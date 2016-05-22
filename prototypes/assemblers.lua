@@ -153,7 +153,7 @@ data:extend(
     ingredient_count= 1,
     energy_usage= "200kW",
     crafting_speed= 1,
-	icon="__HARDmod__/graphics/icons/forge.png",
+	icon="__HARDmod__/placeholder-graphics/icons/forge.png",
     energy_source=
     {
       type= "electric",
@@ -221,7 +221,7 @@ data:extend(
 	place_result= "forge",
 	stack_size= 1,
 	flags= { "goes-to-quickbar" },
-	icon="__HARDmod__/graphics/icons/forge.png",
+	icon="__HARDmod__/placeholder-graphics/icons/forge.png",
 	subgroup = "smelting-machine",
 	},
 	
@@ -243,7 +243,7 @@ data:extend(
 	{
     type = "item",
     name = "long-handed-burner-inserter",
-    icon = "__HARDmod__/graphics/icons/long-handed-burner-inserter.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/long-handed-burner-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserter",
     order = "c[long-handed-burner-inserter]",
@@ -254,7 +254,7 @@ data:extend(
 	{
     type = "inserter",
     name = "long-handed-burner-inserter",
-    icon = "__HARDmod__/graphics/icons/long-handed-burner-inserter.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/long-handed-burner-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "long-handed-burner-inserter"},
     max_health = 40,

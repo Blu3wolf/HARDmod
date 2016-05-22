@@ -3,7 +3,7 @@ data:extend({
   {
     type = "item",
     name = "rubber",
-    icon = "__HARDmod__/graphics/icons/rubber.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/rubber.png",
     flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
     order = "f[rubber]",

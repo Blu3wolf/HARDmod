@@ -11,7 +11,7 @@ data:extend(
     heat_capacity = "1KJ",
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=1.0, b=1.0},
-    icon = "__HARDmod__/graphics/icons/compressed-air.png",
+    icon = "__bobplates__/graphics/icons/liquid-air.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
 	subgroup = "gasses",
@@ -34,7 +34,7 @@ data:extend(
     {
       {type="fluid", name="compressed-air", amount=1}
     },
-    icon = "__HARDmod__/graphics/icons/compressed-air.png",
+    icon = "__bobplates__/graphics/icons/liquid-air.png",
     order = "b[fluid-chemistry]-b[compressed-air]"
   },
   
@@ -64,7 +64,7 @@ data:extend(
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/liquid-hydrogen.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/liquid-hydrogen.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -137,7 +137,7 @@ data:extend(
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/liquid-oxygen.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/liquid-oxygen.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -151,7 +151,7 @@ data:extend(
 		subgroup = "liquid-to-gas",
 		order = "e",
 		energy_required = 10,
-		icon = "__HARDmod__/graphics/icons/oxygen-gas-to-liquid-oxygen.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/oxygen-gas-to-liquid-oxygen.png",
 		ingredients =
 		{
 		  {type="fluid", name="oxygen-gas", amount=10},
@@ -241,7 +241,7 @@ data:extend(
 		subgroup = "gasses",
 	order = "d",
 		energy_required = 1,
-		icon = "__HARDmod__/graphics/icons/dry-ice-to-co2-gas.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/dry-ice-to-co2-gas.png",
 		ingredients =
 		{
 		  {type="item", name="dry-ice", amount=1},
@@ -277,7 +277,7 @@ data:extend(
 	{
     type = "item",
     name = "dry-ice",
-    icon = "__HARDmod__/graphics/icons/dry-ice.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/dry-ice.png",
     flags = {"goes-to-quickbar"},
     subgroup = "raw-material",
     order = "a[dry-ice]",
@@ -294,7 +294,7 @@ data:extend(
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/liquid-nitrogen.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/liquid-nitrogen.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[nitrogen]"
@@ -366,7 +366,7 @@ data:extend(
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/liquid-argon.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/liquid-argon.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,

@@ -4,7 +4,7 @@ data:extend({
   {
     type = "item",
     name = "rubber",
-    icon = "__HARDmod__/graphics/icons/rubber.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/rubber.png",
     flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
     order = "f[rubber]",
@@ -29,7 +29,7 @@ data:extend({
   {
     type = "item",
     name = "glass-plate",
-    icon = "__HARDmod__/graphics/icons/glass-plate.png",
+    icon = "__bobplates__/graphics/icons/glass.png",
     flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
     order = "f[glass-plate]",
@@ -49,7 +49,7 @@ data:extend({
   {
     type = "item",
     name = "silicon-wafer",
-    icon = "__HARDmod__/graphics/icons/silicon-wafer.png",
+    icon = "__bobplates__/graphics/icons/silicon-wafer.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronic-components",
     order = "f[silicon-wafer]",

@@ -176,7 +176,7 @@ data:extend( {
   {
     type = "ammo",
     name = "rifle-magazine",
-    icon = "__HARDmod__/graphics/icons/rifle-magazine.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/rifle-magazine.png",
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {
@@ -256,7 +256,7 @@ data:extend( {
   {
     type = "gun",
     name = "heavy-machine-gun",
-    icon = "__HARDmod__/graphics/icons/heavy-machine-gun.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/heavy-machine-gun.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gun",
     order = "a[basic-clips]-b[heavy-machine-gun]",
@@ -332,7 +332,7 @@ data:extend( {
     {
     type = "armor",
     name = "heavy-armor",
-    icon = "__HARDmod__/graphics/icons/kevlar-vest.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/kevlar-vest.png",
     flags = {"goes-to-main-inventory"},
     resistances =
     {
@@ -648,7 +648,7 @@ data:extend( {
   {
     type = "item",
     name = "solid-rocket-fuel",
-    icon = "__HARDmod__/graphics/icons/solid-rocket-fuel.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/solid-rocket-fuel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "spacetravel-propellant",
     order = "a[solid-rocket-fuel]",
@@ -665,7 +665,7 @@ data:extend( {
 		base_color = {r=0, g=0, b=0},
 		flow_color = {r=0.5, g=1.0, b=1.0},
 		max_temperature = -186,
-		icon = "__HARDmod__/graphics/icons/lox-kerosene-propellant.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/lox-kerosene-propellant.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[lox-kerosene-propellant]"
@@ -676,7 +676,7 @@ data:extend( {
 		name = "lox-kerosene-propellant",
 		category = "chemistry",
 		energy_required = 5,
-		icon = "__HARDmod__/graphics/icons/lox-kerosene-propellant.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/lox-kerosene-propellant.png",
 		subgroup = "spacetravel-propellant",
 		ingredients =
 		{
@@ -698,7 +698,7 @@ data:extend( {
 		base_color = {r=0, g=0, b=0},
 		flow_color = {r=0.5, g=1.0, b=1.0},
 		max_temperature = -186,
-		icon = "__HARDmod__/graphics/icons/lox-hydrogen-propellant.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/lox-hydrogen-propellant.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[lox-hydrogen-propellant]"
@@ -710,7 +710,7 @@ data:extend( {
 		category = "chemistry",
 		subgroup = "spacetravel-propellant",
 		energy_required = 5,
-		icon = "__HARDmod__/graphics/icons/lox-hydrogen-propellant.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/lox-hydrogen-propellant.png",
 		ingredients =
 		{
 			{type="fluid", name="liquid-oxygen", amount=10},

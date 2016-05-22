@@ -80,7 +80,7 @@ data:extend(
   {
     type = "item",
     name = "sodium-cyanide",
-    icon = "__HARDmod__/graphics/icons/sodium-cyanide-2.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/sodium-cyanide-2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemistry",
     order = "f[sodium-cyanide]",
@@ -101,7 +101,7 @@ data:extend(
     {
 		{type="item", name="sodium-cyanide", amount=1},
     },
-    icon = "__HARDmod__/graphics/icons/sodium-cyanide-2.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/sodium-cyanide-2.png",
     subgroup = "chemistry",
     enabled = "false",
     order = "b[fluid-chemistry]-c[sodium-cyanide]"
@@ -154,7 +154,7 @@ data:extend(
     base_color = {r=0.4, g=0, b=0.4},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/photoresist-solution.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/photoresist-solution.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[photoresist-solution]"
@@ -174,7 +174,7 @@ data:extend(
     {
 		{type="fluid", name="photoresist-solution", amount=5},
     },
-    icon = "__HARDmod__/graphics/icons/photoresist-solution.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/photoresist-solution.png",
     subgroup = "chemicals-microchip",
     enabled = "false",
     order = "b[fluid-chemistry]-c[photoresist-solution]"
@@ -191,7 +191,7 @@ data:extend(
     base_color = {r=0.4, g=0, b=0.4},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/sodium-sulfite.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/sodium-sulfite.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[sodium-sulfite]"
@@ -212,7 +212,7 @@ data:extend(
 		{type="fluid", name="sodium-sulfite", amount=1},
 		{type="fluid", name="water", amount=1},
     },
-    icon = "__HARDmod__/graphics/icons/sodium-sulfite.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/sodium-sulfite.png",
     subgroup = "chemistry",
     enabled = "false",
     order = "b[fluid-chemistry]-c[sodium-sulfite]"
@@ -264,7 +264,7 @@ data:extend(
     base_color = {r=0.4, g=0, b=0.4},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/developer-solution.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/developer-solution.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[developer-solution]"
@@ -285,7 +285,7 @@ data:extend(
     {
 		{type="fluid", name="developer-solution", amount=5},
     },
-    icon = "__HARDmod__/graphics/icons/developer-solution.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/developer-solution.png",
     subgroup = "chemicals-microchip",
     enabled = "false",
     order = "b[fluid-chemistry]-c[developer-solution]"
@@ -301,7 +301,7 @@ data:extend(
     base_color = {r=0.4, g=0, b=0.4},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/doping-solution.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/doping-solution.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[doping-solution]"
@@ -322,7 +322,7 @@ data:extend(
     {
 		{type="fluid", name="doping-solution", amount=5},
     },
-    icon = "__HARDmod__/graphics/icons/doping-solution.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/doping-solution.png",
     subgroup = "chemicals-microchip",
     enabled = "false",
     order = "b[fluid-chemistry]-c[doping-solution]"
@@ -511,7 +511,7 @@ data:extend(
     {
       {type="item", name="solid-fuel", amount=1}
     },
-    icon = "__HARDmod__/graphics/icons/solid-fuel-from-hydrogen.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/solid-fuel-from-hydrogen.png",
     subgroup = "power-fuels",
     enabled = "false",
     order = "b[fluid-chemistry]-c[solid-fuel-from-hydrogen]"
@@ -545,7 +545,7 @@ data:extend(
 		name = "sodium-hydroxide",
 		category = "chemical-furnace",
 		energy_required = 5,
-		icon = "__HARDmod__/graphics/icons/sodium-hydroxide.png",
+		icon = "__bobplates__/graphics/icons/sodium-hydroxide.png",
 		ingredients =
 		{
 		  {type="fluid", name="water", amount=3},
@@ -562,7 +562,7 @@ data:extend(
   {
     type = "item",
     name = "sodium-hydroxide",
-    icon = "__HARDmod__/graphics/icons/sodium-hydroxide.png",
+    icon = "__bobplates__/graphics/icons/sodium-hydroxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "organic-chemicals",
     order = "f[sodium-hydroxide]",
@@ -587,7 +587,7 @@ data:extend(
       {type="fluid", name="chlorine", amount=1},
       {type="fluid", name="hydrogen-gas", amount=1},
     },
-    icon = "__HARDmod__/graphics/icons/salt-water-electrolysis.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/salt-water-electrolysis.png",
     subgroup = "chemical-electrolysis",
     order = "b[fluid-chemistry]-b[salt-water-electrolysis]"
   },
@@ -664,14 +664,14 @@ data:extend(
       {type="fluid", name="hydrogen-gas", amount=1},
     },
 	subgroup = "chemical-electrolysis",
-    icon = "__HARDmod__/graphics/icons/lithium-perchlorate.png",
+    icon = "__bobplates__/graphics/icons/lithium-perchlorate.png",
     order = "b[fluid-chemistry]-b[lithium-perchlorate]"
   },
   
     {
     type = "item",
     name = "lithium-perchlorate",
-    icon = "__HARDmod__/graphics/icons/lithium-perchlorate.png",
+    icon = "__bobplates__/graphics/icons/lithium-perchlorate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemical-electrolysis",
     order = "f[lithium-perchlorate]",
@@ -697,14 +697,14 @@ data:extend(
       {type="fluid", name="hydrogen-gas", amount=1},
     },
 	subgroup = "raw-plates",
-    icon = "__HARDmod__/graphics/icons/plate/lithium-plate.png",
+    icon = "__bobplates__/graphics/icons/plate/lithium-plate.png",
     order = "b[fluid-chemistry]-b[lithium-plate]"
   },
   
     {
     type = "item",
     name = "lithium-plate",
-    icon = "__HARDmod__/graphics/icons/plate/lithium-plate.png",
+    icon = "__bobplates__/graphics/icons/plate/lithium-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-plates",
     order = "c-a-e[lithium-plate]",
@@ -764,14 +764,14 @@ data:extend(
     {
       {type="item", name="polycrystalline-silicon-plate", amount=1},
     },
-    icon = "__HARDmod__/graphics/icons/polycrystalline-silicon-plate.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/polycrystalline-silicon-plate.png",
     order = "b"
   },
   
     {
     type = "item",
     name = "polycrystalline-silicon-plate",
-    icon = "__HARDmod__/graphics/icons/polycrystalline-silicon-plate.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/polycrystalline-silicon-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-plates",
     order = "c-a-b[polycrystalline-silicon-plate]",
@@ -795,14 +795,14 @@ data:extend(
     {
       {type="item", name="monocrystalline-silicon-plate", amount=1},
     },
-    icon = "__HARDmod__/graphics/icons/monocrystalline-silicon-plate.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/monocrystalline-silicon-plate.png",
     order = "c"
   },
   
     {
     type = "item",
     name = "monocrystalline-silicon-plate",
-    icon = "__HARDmod__/graphics/icons/monocrystalline-silicon-plate.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/monocrystalline-silicon-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-plates",
     order = "c-a-b[monocrystalline-silicon-plate]",
@@ -969,7 +969,7 @@ data:extend(
     base_color = {r=0.7, g=0.6, b=0.2},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/ferric-chloride-solution.png",
+    icon = "__bobplates__/graphics/icons/ferric-chloride-solution.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[ferric-chloride-solution]"
@@ -991,7 +991,7 @@ data:extend(
     {
       {type="fluid", name="ferric-chloride-solution", amount=5}
     },
-    icon = "__HARDmod__/graphics/icons/ferric-chloride-solution.png",
+    icon = "__bobplates__/graphics/icons/ferric-chloride-solution.png",
     order = "b[fluid-chemistry]-a[ferric-chloride-solution]"
   },
   
@@ -1087,7 +1087,7 @@ data:extend(
   {
     type = "item",
     name = "powdered-tungsten",
-    icon = "__HARDmod__/graphics/icons/powdered-tungsten.png",
+    icon = "__bobplates__/graphics/icons/powdered-tungsten.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemical-furnace",
     order = "f[powdered-tungsten]",
@@ -1113,7 +1113,7 @@ data:extend(
   {
     type = "item",
     name = "powdered-silicon",
-    icon = "__HARDmod__/graphics/icons/powdered-silicon.png",
+    icon = "__bobplates__/graphics/icons/powdered-silicon.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemical-furnace",
     order = "f[powdered-silicon]",
@@ -1142,7 +1142,7 @@ data:extend(
   {
     type = "item",
     name = "silicon-nitride",
-    icon = "__HARDmod__/graphics/icons/silicon-nitride.png",
+    icon = "__bobplates__/graphics/icons/silicon-nitride.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemical-furnace",
     order = "f[silicon-nitride]",
@@ -1168,7 +1168,7 @@ data:extend(
     {
     type = "item",
     name = "lithium-cobalt-oxide",
-    icon = "__HARDmod__/graphics/icons/lithium-cobalt-oxide.png",
+    icon = "__bobplates__/graphics/icons/lithium-cobalt-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemical-furnace",
     order = "c-b[lithium-cobalt-oxide]",
@@ -1219,7 +1219,7 @@ data:extend(
   {
     type = "item",
     name = "lithium-chloride",
-    icon = "__HARDmod__/graphics/icons/lithium-chloride.png",
+    icon = "__bobplates__/graphics/icons/lithium-chloride.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemistry",
 	enabled = false,
@@ -1246,7 +1246,7 @@ data:extend(
   {
     type = "item",
     name = "co2-laser-emitter",
-    icon = "__HARDmod__/graphics/icons/co2-laser-emitter.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/co2-laser-emitter.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemistry",
 	enabled = false,

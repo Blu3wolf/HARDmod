@@ -352,7 +352,7 @@ data:extend({
 {
     type = "item",
     name = "electrolyser",
-    icon = "__HARDmod__/graphics/icons/electrolyser.png",
+    icon = "__bobplates__/graphics/icons/electrolyser.png",
     flags = {"goes-to-quickbar"},
     order = "e[electrolyser-1]",
 	    subgroup = "alt-production",

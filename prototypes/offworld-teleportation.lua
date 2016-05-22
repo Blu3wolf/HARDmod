@@ -4,7 +4,7 @@
  {
     type = "technology",
     name = "offworld-teleportation",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/offworld-teleportation.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/offworld-teleportation.png",
     effects =
     {
       {
@@ -31,7 +31,7 @@
   {
     type = "technology",
     name = "military-supply-contract",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/military-supply-contract.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/military-supply-contract.png",
     effects =
     {
       {
@@ -77,7 +77,7 @@
   {
     type = "technology",
     name = "electronics-supply-contract",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/electronics-supply-contract.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/electronics-supply-contract.png",
     effects =
     {
       {
@@ -118,7 +118,7 @@
     {
     type = "item",
     name = "offworld-teleporter",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/offworld-teleporter.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/offworld-teleporter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "offworld-teleportation",
     order = "b[assembling-machine-2]",
@@ -129,7 +129,7 @@
 	{
     type = "assembling-machine",
     name = "offworld-teleporter",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/offworld-teleporter.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/offworld-teleporter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 5, result = "offworld-teleporter"},
     max_health = 250,
@@ -146,7 +146,7 @@
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation =
     {
-      filename = "__HARDmod__/graphics/icons/offworld-teleportation/offworld-teleporter/offworld-teleporter.png",
+      filename = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/offworld-teleporter/offworld-teleporter.png",
       priority = "high",
       width = 142,
       height = 113,
@@ -202,7 +202,7 @@
   {
     type = "item",
     name = "tank-platoon",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/tank-platoon.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/tank-platoon.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "military-vp",
     order = "c",
@@ -231,7 +231,7 @@
   {
     type = "item",
     name = "rifle-platoon-equipment",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/rifle-platoon.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/rifle-platoon.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "military-vp",
     order = "a",
@@ -250,7 +250,7 @@
 	  {"night-vision-equipment", 40},
 	  {"heavy-machine-gun", 8},
 	  {"rocket-launcher", 2},
-	  {"healing-pack", 10},
+	  {"tf-medicine", 10},
     },
     result = "rifle-platoon-equipment"
   },
@@ -258,7 +258,7 @@
   {
     type = "item",
     name = "rifle-platoon-ammo",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/rifle-platoon-ammo.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/rifle-platoon-ammo.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "military-vp",
     order = "b",
@@ -285,7 +285,7 @@
   {
     type = "item",
     name = "military-vp",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/military-vp.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/military-vp.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "military-vp",
     order = "d",
@@ -312,7 +312,7 @@
   {
     type = "item",
     name = "mass-produced-power-armor",
-    icon = "__base__/graphics/icons/power-armor.png",
+    icon = "__base__/placeholder-graphics/icons/power-armor.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "armor",
     order = "a[solid-rocket-fuel]",
@@ -339,7 +339,7 @@
   {
     type = "item",
     name = "cellphones-package",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/cellphones-package.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/cellphones-package.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronics-vp",
     order = "a[cellphones-package]",
@@ -362,7 +362,7 @@
   {
     type = "item",
     name = "tablets-package",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/tablets-package.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/tablets-package.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronics-vp",
     order = "a[tablets-package]",
@@ -387,7 +387,7 @@
   {
     type = "item",
     name = "pcs-package",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/pcs-package.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/pcs-package.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronics-vp",
     order = "a[tablets-package]",
@@ -411,7 +411,7 @@
   {
     type = "item",
     name = "electronics-vp",
-    icon = "__HARDmod__/graphics/icons/offworld-teleportation/electronics-vp.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/offworld-teleportation/electronics-vp.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronics-vp",
     order = "d",

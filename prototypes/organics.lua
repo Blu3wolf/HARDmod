@@ -14,7 +14,7 @@ data:extend(
 		name = "fertilizer",
 		category = "bioreactor-crafting",
 		energy_required = 5,
-		icon = "__HARDmod__/graphics/icons/compound-fertilizer.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/compound-fertilizer.png",
 		ingredients =
 		{
 			{type="fluid", name="nitrogen-fertilizer", amount=5},
@@ -31,7 +31,7 @@ data:extend(
 	{
 		type = "item",
 		name = "fertilizer",
-		icon = "__HARDmod__/graphics/icons/compound-fertilizer.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/compound-fertilizer.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "organic-biomass",
 		order = "b[compound-fertilizer]",
@@ -46,7 +46,7 @@ data:extend(
 		category = "bioreactor-crafting",
 		subgroup = "organic-biomass",
 		energy_required = 3,
-		icon = "__HARDmod__/graphics/icons/nitrogen-fertilizer.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/nitrogen-fertilizer.png",
 		ingredients =
 		{
 			{type="fluid", name="ammonia", amount=3},
@@ -67,7 +67,7 @@ data:extend(
 		base_color = {r=0, g=1.0, b=0},
 		flow_color = {r=0.0, g=1.0, b=0.0},
 		max_temperature = 50,
-		icon = "__HARDmod__/graphics/icons/nitrogen-fertilizer.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/nitrogen-fertilizer.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[nitrogen-fertilizer]"
@@ -81,7 +81,7 @@ data:extend(
 		subgroup = "organic-biomass",
 		category = "bioreactor-crafting",
 		energy_required = 3,
-		icon = "__HARDmod__/graphics/icons/phosphate-fertilizer.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/phosphate-fertilizer.png",
 		ingredients =
 		{
 			{type="item", name="phosphate-rock", amount=1},
@@ -102,7 +102,7 @@ data:extend(
 		base_color = {r=0, g=1.0, b=0},
 		flow_color = {r=0.0, g=1.0, b=0.0},
 		max_temperature = 50,
-		icon = "__HARDmod__/graphics/icons/phosphate-fertilizer.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/phosphate-fertilizer.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[phosphate-fertilizer]"
@@ -116,7 +116,7 @@ data:extend(
 		subgroup = "organic-biomass",
 		category = "bioreactor-crafting",
 		energy_required = 3,
-		icon = "__HARDmod__/graphics/icons/potassium-fertilizer.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/potassium-fertilizer.png",
 		ingredients =
 		{
 			{type="item", name="potassium-chloride", amount=2},
@@ -137,7 +137,7 @@ data:extend(
 		base_color = {r=0, g=1.0, b=0},
 		flow_color = {r=0.0, g=1.0, b=0.0},
 		max_temperature = 50,
-		icon = "__HARDmod__/graphics/icons/potassium-fertilizer.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/potassium-fertilizer.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[potassium-fertilizer]"
@@ -195,7 +195,7 @@ data:extend(
 	{
 		type = "item",
 		name = "potash",
-		icon = "__HARDmod__/graphics/icons/potash.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/potash.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "organic-chemicals",
 		order = "b[potash]",
@@ -207,7 +207,7 @@ data:extend(
 		name = "potash",
 		category = "chemical-furnace",
 		energy_required = 5,
-		icon = "__HARDmod__/graphics/icons/potash.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/potash.png",
 		ingredients =
 		{
 		  {type="item", name="sodium-hydroxide", amount=3},
@@ -254,7 +254,7 @@ data:extend(
 	{
 		type = "item",
 		name = "magnesium-chloride",
-		icon = "__HARDmod__/graphics/icons/magnesium-chloride.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/magnesium-chloride.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "chemistry",
 		order = "b[potassium-nitrate]",
@@ -276,7 +276,7 @@ data:extend(
 		{type="item", name="magnesium-chloride", amount=5},
 		{type="fluid", name="water", amount=5}
     },
-    icon = "__HARDmod__/graphics/icons/magnesium-chloride.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/magnesium-chloride.png",
     subgroup = "chemistry",
     enabled = "false",
     order = "b[fluid-chemistry]-c[magnesium-chloride]"
@@ -287,7 +287,7 @@ data:extend(
   {
 		type = "item",
 		name = "magnesium-oxide",
-		icon = "__HARDmod__/graphics/icons/magnesium-oxide.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/magnesium-oxide.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "chemical-furnace",
 		order = "b[potassium-nitrate]",
@@ -308,7 +308,7 @@ data:extend(
     {
 		{type="item", name="magnesium-oxide", amount=5},
     },
-    icon = "__HARDmod__/graphics/icons/magnesium-oxide.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/magnesium-oxide.png",
     subgroup = "chemistry",
     enabled = "false",
     order = "b[fluid-chemistry]-c[magnesium-oxide]"
@@ -319,7 +319,7 @@ data:extend(
   {
 		type = "item",
 		name = "epsomite",
-		icon = "__HARDmod__/graphics/icons/epsomite.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/epsomite.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "chemistry",
 		order = "b[epsomite]",
@@ -341,7 +341,7 @@ data:extend(
     {
 		{type="item", name="epsomite", amount=5},
     },
-    icon = "__HARDmod__/graphics/icons/epsomite.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/epsomite.png",
     subgroup = "chemistry",
     enabled = "false",
     order = "b[fluid-chemistry]-c[epsomite]"
@@ -352,7 +352,7 @@ data:extend(
 	{
 		type = "item",
 		name = "nutrient-solution",
-		icon = "__HARDmod__/graphics/icons/nutrient-solution.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/nutrient-solution.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "organic-chemicals",
 		order = "b[nutrient-solution]",
@@ -365,7 +365,7 @@ data:extend(
 		category = "bioreactor-crafting",
 		energy_required = 5,
 		subgroup = "organic-biomass",
-		icon = "__HARDmod__/graphics/icons/nutrient-solution.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/nutrient-solution.png",
 		ingredients =
 		{
 			{type="item", name="potassium-nitrate", amount=4},
@@ -379,9 +379,11 @@ data:extend(
 			{type="item", name="nutrient-solution", amount=5}
 		},
 		enabled = "false"
-	},
+	}
 	
 	-- BIOMASS --
+	
+	--[[
 	
 	{
 		type = "fluid",
@@ -462,65 +464,8 @@ data:extend(
 			{type="item", name="plastic-bar", amount=1}
 		},
 		enabled = "false"
-	},
-	
-	-- HEALING PACK --
-	
-	{
-		type = "capsule",
-		name = "healing-pack",
-		icon = "__HARDmod__/graphics/icons/healing-pack.png",
-		flags = {"goes-to-main-inventory"},
-		subgroup = "organic-tools",
-		order = "a",
-		stack_size = 10,
-		capsule_action =
-		{
-			type = "use-on-self",
-			attack_parameters =
-			{
-				type = "projectile",
-				ammo_category = "capsule",
-				cooldown = 30,
-				range = 0,
-				ammo_type =
-				{
-					category = "capsule",
-					target_type = "position",
-					action =
-					{
-						type = "direct",
-						action_delivery =
-						{
-							type = "instant",
-							target_effects = 
-							{
-								type = "damage",
-								damage = {type = "physical", amount = -50}
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	
-	{
-		type = "recipe",
-		name = "healing-pack",
-		category = "bioreactor-crafting",
-		energy_required = 20,
-		subgroup = "organic-tools",
-		ingredients =
-		{
-			{type="fluid", name="biomass", amount=100}
-		},
-		results=
-		{
-			{type="item", name="healing-pack", amount=1}
-		},
-		enabled = "false"
 	}
+	--]]
 }
 )
 

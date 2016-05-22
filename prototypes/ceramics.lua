@@ -5,7 +5,7 @@ data:extend(
 	{
 	type = "item",
     name = "ceramic-plate",
-    icon = "__HARDmod__/graphics/icons/ceramic-plate.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/ceramic-plate.png",
     flags = {"goes-to-quickbar"},
     subgroup = "raw-plates",
     order = "a[ceramic-plate]",
