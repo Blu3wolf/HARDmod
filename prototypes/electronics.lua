@@ -36,7 +36,7 @@ data:extend( {
     {
     type = "item",
     name = "wooden-substrate",
-    icon = "__bobelectronics__/graphics/icons/basic-circuit-board.png",
+    icon = "__HARDmod__/graphics/icons/wooden-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "substrates",
     order = "a",
@@ -59,7 +59,7 @@ data:extend( {
   {
     type = "item",
     name = "fiberglass-substrate",
-    icon = "__HARDmod__/placeholder-graphics/icons/electronics/fiberglass-substrate.png",
+    icon = "__HARDmod__/graphics/icons/fiberglass-board-2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "substrates",
     order = "b",
@@ -85,7 +85,7 @@ data:extend( {
   {
     type = "item",
     name = "superior-fiberglass-substrate",
-    icon = "__bobelectronics__/graphics/icons/superior-circuit-board.png",
+    icon = "__HARDmod__/graphics/icons/superior-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "substrates",
     order = "c",
@@ -114,7 +114,7 @@ data:extend( {
   {
     type = "item",
     name = "fr4-substrate",
-    icon = "__bobelectronics__/graphics/icons/multi-layer-circuit-board.png",
+    icon = "__HARDmod__/graphics/icons/multi-layer-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "substrates",
     order = "d",
@@ -145,7 +145,7 @@ data:extend( {
   {
     type = "item",
     name = "tinned-copper-wire",
-    icon = "__bobelectronics__/graphics/icons/tinned-copper-cable.png",
+    icon = "__HARDmod__/graphics/icons/tinned-copper-cable.png",
     flags = {"goes-to-main-inventory"},
     order = "b",
 	subgroup = "wiring",
@@ -170,7 +170,7 @@ data:extend( {
   {
     type = "item",
     name = "insulated-copper-wire",
-    icon = "__bobelectronics__/graphics/icons/insulated-cable.png",
+    icon = "__HARDmod__/graphics/icons/insulated-cable.png",
     flags = {"goes-to-main-inventory"},
     order = "c",
 		subgroup = "wiring",
@@ -195,7 +195,7 @@ data:extend( {
   {
     type = "item",
     name = "gilded-copper-wire",
-    icon = "__bobelectronics__/graphics/icons/gilded-copper-cable.png",
+    icon = "__HARDmod__/graphics/icons/gilded-copper-cable.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "wiring",
     order = "d",
@@ -220,7 +220,7 @@ data:extend( {
   {
     type = "item",
     name = "solder",
-    icon = "__bobelectronics__/graphics/icons/solder.png",
+    icon = "__HARDmod__/graphics/icons/solder.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "wiring",
     order = "e",
@@ -274,7 +274,7 @@ data:extend( {
   {
     type = "item",
     name = "resistors",
-    icon = "__bobelectronics__/graphics/icons/basic-electronic-components.png",
+    icon = "__HARDmod__/graphics/icons/basic-electronic-components.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronic-components",
     order = "a",
@@ -353,7 +353,7 @@ data:extend( {
   {
     type = "item",
     name = "integrated-circuit",
-    icon = "__bobelectronics__/graphics/icons/integrated-electronics.png",
+    icon = "__HARDmod__/graphics/icons/integrated-electronics.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronic-components",
     order = "e",
@@ -414,7 +414,7 @@ data:extend( {
   {
     type = "item",
     name = "cpu",
-    icon = "__bobelectronics__/graphics/icons/cpu.png",
+    icon = "__HARDmod__/graphics/icons/cpu.png",
     flags = {"goes-to-main-inventory"},
     order = "g",
 	    subgroup = "electronic-components",
@@ -470,12 +470,12 @@ data:extend( {
     },
   },
  
- -- BASIC CIRCUIT BOARD
+ -- BASIC ELECTRONIC CIRCUIT BOARD
  
   {
     type = "item",
     name = "electronic-circuit",
-    icon = "__bobelectronics__/graphics/icons/basic-circuit-board.png",
+    icon = "__HARDmod__/graphics/icons/basic-electronic-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "circuit-boards",
     order = "a",
@@ -499,7 +499,7 @@ data:extend( {
     {
     type = "item",
     name = "advanced-circuit",
-    icon = "__HARDmod__/placeholder-graphics/icons/electronics/advanced-circuit-board.png",
+    icon = "__HARDmod__/graphics/icons/advanced-electronic-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "circuit-boards",
     order = "b",
@@ -528,7 +528,7 @@ data:extend( {
     {
     type = "item",
     name = "processing-unit",
-    icon = "__bobelectronics__/graphics/icons/electronic-logic-board.png",
+    icon = "__HARDmod__/graphics/icons/electronic-logic-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "circuit-boards",
     order = "c",
@@ -558,7 +558,7 @@ data:extend( {
     {
     type = "item",
     name = "motherboard",
-    icon = "__bobmodules__/graphics/icons/effectivity-processor-3.png",
+    icon = "__HARDmod__/graphics/icons/electronic-processing-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "circuit-boards",
     order = "d",
