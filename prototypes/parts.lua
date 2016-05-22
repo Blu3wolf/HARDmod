@@ -273,7 +273,7 @@ data:extend(
     type = "item",
     name = "basic-motor",
 	flags = {"goes-to-main-inventory"},
-    icon = "__HARDmod__/graphics/icons/basic-motor.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/basic-motor.png",
     subgroup = "intermediate-product",
     order = "e",
     stack_size = 20
