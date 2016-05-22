@@ -15,7 +15,9 @@ data.raw["technology"]["productivity-module-3"].icon = "__bobmodules__/graphics/
 
 data.raw["technology"]["armor-making"].order = "a-a-e"
 data.raw["technology"]["plastics"].order = "b-b-b-a"
-	
+
+bobmods.lib.add_technology_prerequisite("stone-walls", "concrete")
+bobmods.lib.add_technology.recipe("stone-walls", "chemical-furnace")
 	
 -- RED SCIENCE TIER ONE	  RST1
 	  
@@ -521,43 +523,6 @@ data:extend({
 		},
 		order = "a-c-a",
   },
-
-	{
-		type = "technology",
-		name = "stone-walls",
-		icon = "__HARDmod__/graphics/icons/technology/concrete-manufacturing.png",
-		prerequisites =
-		{
-			"cokery-manufacturing",
-			"extraction-technology",
-		},
-		unit =
-			{
-			  count = 40,
-			  ingredients = {{"science-pack-1", 1}},
-			  time = 20
-			},
-		effects =
-		{
-		  {
-			type = "unlock-recipe",
-			recipe = "cement"
-		  },
-		  {
-			type = "unlock-recipe",
-			recipe = "stone-brick"
-		  },
-		  {
-			type = "unlock-recipe",
-			recipe = "stone-wall"
-		  },
-		  {
-				type = "unlock-recipe",
-				recipe = "chemical-furnace"
-		  },
-		},
-		order = "a-c-b"
-  },  
   
   {
     type = "technology",
