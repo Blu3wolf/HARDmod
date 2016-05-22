@@ -64,7 +64,7 @@ data:extend(
 	{
     type = "item",
     name = "lab",
-    icon = "__HARDmod__/graphics/icons/lab.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/lab.png",
     flags = {"goes-to-quickbar"},
     subgroup = "lab",
     order = "g[lab]",
@@ -75,7 +75,7 @@ data:extend(
 	{
     type = "lab",
     name = "lab",
-    icon = "__HARDmod__/graphics/icons/lab.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/lab.png",
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "lab"},
     max_health = 150,
@@ -86,7 +86,7 @@ data:extend(
     light = {intensity = 0.75, size = 8},
     on_animation =
     {
-      filename = "__HARDmod__/graphics/entity/lab/lab.png",
+      filename = "__HARDmod__/placeholder-graphics/entity/lab/lab.png",
       width = 153,
       height = 131,
       axially_symmetrical = false,
@@ -98,7 +98,7 @@ data:extend(
     },
     off_animation =
     {
-      filename = "__HARDmod__/graphics/entity/lab/lab.png",
+      filename = "__HARDmod__/placeholder-graphics/entity/lab/lab.png",
       width = 153,
       height = 131,
       axially_symmetrical = false,
