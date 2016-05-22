@@ -818,7 +818,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "evaporator",
-    icon = "__HARDmod__/graphics/icons/evaporator.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/evaporator.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "evaporator"},
     max_health = 250,
@@ -857,7 +857,7 @@ data:extend(
     {
       north =
       {
-        filename = "__HARDmod__/graphics/entity/evaporator/evaporator.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/evaporator/evaporator.png",
         width = 156,
         height = 141,
         frame_count = 1,
@@ -865,7 +865,7 @@ data:extend(
       },
       west =
       {
-        filename = "__HARDmod__/graphics/entity/evaporator/evaporator.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/evaporator/evaporator.png",
         x = 156,
         width = 156,
         height = 141,
@@ -874,7 +874,7 @@ data:extend(
       },
       south =
       {
-        filename = "__HARDmod__/graphics/entity/evaporator/evaporator.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/evaporator/evaporator.png",
         x = 312,
         width = 156,
         height = 141,
@@ -883,7 +883,7 @@ data:extend(
       },
       east =
       {
-        filename = "__HARDmod__/graphics/entity/evaporator/evaporator.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/evaporator/evaporator.png",
         x = 468,
         width = 156,
         height = 141,
@@ -900,7 +900,7 @@ data:extend(
         east_position = {0.05, -1.46},
         animation =
         {
-          filename = "__HARDmod__/graphics/entity/evaporator/boiling-white-patch.png",
+          filename = "__HARDmod__/placeholder-graphics/entity/evaporator/boiling-white-patch.png",
           frame_count = 35,
           width = 17,
           height = 12,
@@ -914,14 +914,14 @@ data:extend(
         east_position = {0.05, -0.96},
         north_animation =
         {
-          filename = "__HARDmod__/graphics/entity/evaporator/boiling-window-white-patch.png",
+          filename = "__HARDmod__/placeholder-graphics/entity/evaporator/boiling-window-white-patch.png",
           frame_count = 1,
           width = 21,
           height = 10
         },
         west_animation =
         {
-          filename = "__HARDmod__/graphics/entity/evaporator/boiling-window-white-patch.png",
+          filename = "__HARDmod__/placeholder-graphics/entity/evaporator/boiling-window-white-patch.png",
           x = 21,
           frame_count = 1,
           width = 21,
@@ -929,7 +929,7 @@ data:extend(
         },
         south_animation =
         {
-          filename = "__HARDmod__/graphics/entity/evaporator/boiling-window-white-patch.png",
+          filename = "__HARDmod__/placeholder-graphics/entity/evaporator/boiling-window-white-patch.png",
           x = 42,
           frame_count = 1,
           width = 21,
@@ -967,7 +967,7 @@ data:extend(
 {
     type = "item",
     name = "evaporator",
-    icon = "__HARDmod__/graphics/icons/evaporator.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/evaporator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "air",
     order = "b[evaporator]",
