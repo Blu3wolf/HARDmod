@@ -1,15 +1,15 @@
 	
-data.raw["technology"]["speed-module"].icon = "__HARDmod__/graphics/icons/speed-module-1.png"
-data.raw["technology"]["speed-module-2"].icon = "__HARDmod__/graphics/icons/speed-module-2.png"
-data.raw["technology"]["speed-module-3"].icon = "__HARDmod__/graphics/icons/speed-module-3.png"
+data.raw["technology"]["speed-module"].icon = "__bobmodules__/graphics/icons/speed-module-1.png"
+data.raw["technology"]["speed-module-2"].icon = "__bobmodules__/graphics/icons/speed-module-2.png"
+data.raw["technology"]["speed-module-3"].icon = "__bobmodules__/graphics/icons/speed-module-3.png"
 
-data.raw["technology"]["effectivity-module"].icon = "__HARDmod__/graphics/icons/effectivity-module-1.png"
-data.raw["technology"]["effectivity-module-2"].icon = "__HARDmod__/graphics/icons/effectivity-module-2.png"
-data.raw["technology"]["effectivity-module-3"].icon = "__HARDmod__/graphics/icons/effectivity-module-3.png"
+data.raw["technology"]["effectivity-module"].icon = "__bobmodules__/graphics/icons/effectivity-module-1.png"
+data.raw["technology"]["effectivity-module-2"].icon = "__bobmodules__/graphics/icons/effectivity-module-2.png"
+data.raw["technology"]["effectivity-module-3"].icon = "__bobmodules__/graphics/icons/effectivity-module-3.png"
 
-data.raw["technology"]["productivity-module"].icon = "__HARDmod__/graphics/icons/productivity-module-1.png"
-data.raw["technology"]["productivity-module-2"].icon = "__HARDmod__/graphics/icons/productivity-module-2.png"
-data.raw["technology"]["productivity-module-3"].icon = "__HARDmod__/graphics/icons/productivity-module-3.png"
+data.raw["technology"]["productivity-module"].icon = "__bobmodules__/graphics/icons/productivity-module-1.png"
+data.raw["technology"]["productivity-module-2"].icon = "__bobmodules__/graphics/icons/productivity-module-2.png"
+data.raw["technology"]["productivity-module-3"].icon = "__bobmodules__/graphics/icons/productivity-module-3.png"
 
 -- VANILLA TECH ORDERING
 
