@@ -251,7 +251,7 @@ data:extend({
  {
     type = "assembling-machine",
     name = "electrolyser",
-    icon = "__HARDmod__/graphics/icons/electrolyser.png",
+    icon = "__bobplates__/graphics/icons/electrolyser.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser"},
     fast_replaceable_group = "electrolyser",
@@ -304,7 +304,7 @@ data:extend({
     {
       north =
       {
-        filename = "__HARDmod__/graphics/entity/electrolyser/electro-vt1u.png",
+        filename = "__bobplates__/graphics/entity/electrolyser/electro-vt1u.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -312,7 +312,7 @@ data:extend({
       },
       west =
       {
-        filename = "__HARDmod__/graphics/entity/electrolyser/electro-h-t1l.png",
+        filename = "__bobplates__/graphics/entity/electrolyser/electro-h-t1l.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -320,7 +320,7 @@ data:extend({
       },
       south =
       {
-        filename = "__HARDmod__/graphics/entity/electrolyser/electro-vt1d.png",
+        filename = "__bobplates__/graphics/entity/electrolyser/electro-vt1d.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -328,7 +328,7 @@ data:extend({
       },
       east =
       {
-        filename = "__HARDmod__/graphics/entity/electrolyser/electro-h-t1r.png",
+        filename = "__bobplates__/graphics/entity/electrolyser/electro-h-t1r.png",
         width = 112,
         height = 120,
         frame_count = 1,
