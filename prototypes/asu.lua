@@ -497,7 +497,7 @@ data:extend(
 	  {type="fluid", name="argon-gas", amount=1},
     },
     subgroup = "gasses",
-    icon = "__HARDmod__/graphics/icons/air-separation.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/air-separation.png",
     order = "c"
   },
   
