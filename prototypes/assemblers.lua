@@ -395,7 +395,7 @@ data:extend(
     {
     type = "item",
     name = "hermetically-sealed-assembler",
-    icon = "__HARDmod__/graphics/icons/hermetically-sealed-assembler.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/hermetically-sealed-assembler.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "b[assembling-machine-2]",
@@ -406,7 +406,7 @@ data:extend(
 	{
     type = "assembling-machine",
     name = "hermetically-sealed-assembler",
-    icon = "__HARDmod__/graphics/icons/hermetically-sealed-assembler.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/hermetically-sealed-assembler.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "hermetically-sealed-assembler"},
     max_health = 250,
@@ -459,7 +459,7 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation =
     {
-      filename = "__HARDmod__/graphics/entity/hermetically-sealed-assembler/hermetically-sealed-assembler.png",
+      filename = "__HARDmod__/placeholder-graphics/entity/hermetically-sealed-assembler/hermetically-sealed-assembler.png",
       priority = "high",
       width = 142,
       height = 113,
