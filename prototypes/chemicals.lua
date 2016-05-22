@@ -470,7 +470,7 @@ data:extend(
     base_color = {r=0.4, g=0, b=0.4},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/butadiene.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/butadiene.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[butadiene]"
@@ -490,7 +490,7 @@ data:extend(
 		{type="fluid", name="butadiene", amount=5},
 		{type="fluid", name="hydrogen-gas", amount=10},
     },
-    icon = "__HARDmod__/graphics/icons/butadiene.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/butadiene.png",
     subgroup = "chemistry",
     enabled = "false",
     order = "b[fluid-chemistry]-c[butadiene]"
@@ -1005,7 +1005,7 @@ data:extend(
     base_color = {r=0.7, g=0.6, b=0.2},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/graphics/icons/bromine.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/bromine.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[bromine]"
@@ -1033,7 +1033,7 @@ data:extend(
   {
     type = "item",
     name = "calcium-chloride",
-    icon = "__HARDmod__/graphics/icons/calcium-chloride.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/calcium-chloride.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemistry",
     order = "f[calcium-chloride]",

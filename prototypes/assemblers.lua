@@ -503,7 +503,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "air-compressor",
-    icon = "__bobplates__/graphics/entity/pump.png",
+    icon = "__bobplates__/graphics/icons/air-pump.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "air-compressor"},
     max_health = 150,
@@ -583,7 +583,7 @@ data:extend(
   {
     type = "item",
     name = "air-compressor",
-    icon = "__bobplates__/graphics/icons/pump.png",
+    icon = "__bobplates__/graphics/icons/air-pump.png",
     flags = {"goes-to-quickbar"},
     subgroup = "air",
     order = "e[air-pump]",

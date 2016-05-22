@@ -391,7 +391,7 @@ data:extend(
 		base_color = {r=0, g=0, b=0},
 		flow_color = {r=0.1, g=1.0, b=0.0},
 		max_temperature = 50,
-		icon = "__HARDmod__/graphics/icons/biomass.png",
+		icon = "__Treefarm-AC__/graphics/icons/biomass.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[biomass]"
@@ -400,7 +400,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "biomass",
-		icon = "__HARDmod__/graphics/icons/biomass.png",
+		icon = "__Treefarm-AC__/graphics/icons/biomass.png",
 		subgroup = "organic-biomass",		
 		category = "hydroponic-farm-crafting",
 		energy_required = 10,
@@ -422,7 +422,7 @@ data:extend(
 	{
 		type = "item",
 		name = "cellulose",
-		icon = "__HARDmod__/graphics/icons/cellulose.png",
+		icon = "__Treefarm-AC__/graphics/icons/cellulose.png",
 		flags = {"goes-to-main-inventory"},
 		order = "b[cellulose]",
 		subgroup = "organic-biomass",

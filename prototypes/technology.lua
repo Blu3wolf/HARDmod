@@ -2112,55 +2112,12 @@ data:extend({
     },
 	order = "c-a-e",
   },
-  
-  {
-		type = "technology",
-		name = "biotechnology",
-		icon = "__HARDmod__/graphics/icons/technology/biotechnology.png",
-		prerequisites = {"advanced-electronics-2", "air-handling"},
-		effects = {
-			{
-				type = "unlock-recipe",
-				recipe = "tf-bioreactor"
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "magnesium-chloride"
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "magnesium-oxide"
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "epsomite"
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "nutrient-solution"
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "cellulose"
-			},
-		},
-		unit = {
-			count = 100,
-			ingredients = {
-				{"science-pack-1", 2},
-				{"science-pack-2", 2},
-				{"science-pack-3", 1}
-			},
-			time = 30
-		},
-		order = "c-a-h",
-	},
 	
 	{
 		type = "technology",
 		name = "fertilizer",
 		icon = "__HARDmod__/graphics/icons/technology/fertilizer.png",
-		prerequisites = {"biotechnology"},
+		prerequisites = {"tf-advanced-biotechnology"},
 		effects = {
 				{
 					type = "unlock-recipe",
@@ -2314,7 +2271,7 @@ data:extend({
 		type = "technology",
 		name = "hydroponics",
 		icon = "__HARDmod__/placeholder-graphics/icons/technology/hydroponic-farms.png",
-		prerequisites = {"biotechnology"},
+		prerequisites = {"tf-advanced-biotechnology"},
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -2340,30 +2297,6 @@ data:extend({
 
 	{
 		type = "technology",
-		name = "organic-plastic",
-		icon = "__HARDmod__/graphics/icons/cellulose.png",
-		prerequisites = {"biotechnology"},
-		effects = {
-			{
-				type = "unlock-recipe",
-				recipe = "organic-plastic"
-			}
-		},
-
-		unit = {
-			count = 100,
-			ingredients = {
-				{"science-pack-1", 1},
-				{"science-pack-2", 1},
-				{"science-pack-3", 1}
-			},
-			time = 40
-		},
-		order = "c-b-c",
-	},
-
-	{
-		type = "technology",
 		name = "medicine",
 		icon = "__HARDmod__/graphics/icons/healing-pack.png",
 		effects = {
@@ -2372,9 +2305,7 @@ data:extend({
 				recipe = "healing-pack"
 			}
 		},
-		prerequisites = {
-			"biotechnology"
-		},
+		prerequisites = {"tf-advanced-biotechnology"},
 		unit = {
 			count = 75,
 			ingredients = {

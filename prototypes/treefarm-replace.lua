@@ -76,3 +76,9 @@ data.raw["assembling-machine"]["tf-biolab"].animation = {
 	frame_count = 1,
 	shift = {0.0, 0.0}
 }
+
+bobmods.lib.add_technology_recipe("tf-advanced-biotechnology", "magnesium-chloride")
+bobmods.lib.add_technology_recipe("tf-advanced-biotechnology", "magnesium-oxide")
+bobmods.lib.add_technology_recipe("tf-advanced-biotechnology", "epsomite")
+bobmods.lib.add_technology_recipe("tf-advanced-biotechnology", "nutrient-solution")
+  
