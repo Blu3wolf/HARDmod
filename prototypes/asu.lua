@@ -506,7 +506,7 @@ data:extend(
 {
     type = "assembling-machine",
     name = "heat-exchanger",
-    icon = "__HARDmod__/graphics/icons/heat-exchanger.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/heat-exchanger.png",
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "heat-exchanger"},
     max_health = 300,
@@ -531,7 +531,7 @@ data:extend(
     {
       north =
       {
-        filename = "__HARDmod__/graphics/entity/heat-exchanger/heat-exchanger.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/heat-exchanger/heat-exchanger.png",
         width = 337,
         height = 255,
         frame_count = 1,
@@ -539,7 +539,7 @@ data:extend(
       },
       east =
       {
-        filename = "__HARDmod__/graphics/entity/heat-exchanger/heat-exchanger.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/heat-exchanger/heat-exchanger.png",
         x = 337,
         width = 337,
         height = 255,
@@ -548,7 +548,7 @@ data:extend(
       },
       south =
       {
-        filename = "__HARDmod__/graphics/entity/heat-exchanger/heat-exchanger.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/heat-exchanger/heat-exchanger.png",
         x = 674,
         width = 337,
         height = 255,
@@ -557,7 +557,7 @@ data:extend(
       },
       west =
       {
-        filename = "__HARDmod__/graphics/entity/heat-exchanger/heat-exchanger.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/heat-exchanger/heat-exchanger.png",
         x = 1011,
         width = 337,
         height = 255,
@@ -634,7 +634,7 @@ data:extend(
 {
     type = "item",
     name = "heat-exchanger",
-    icon = "__HARDmod__/graphics/icons/heat-exchanger.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/heat-exchanger.png",
     flags = {"goes-to-quickbar"},
     subgroup = "air",
     order = "b[assembling-machine-2]",
