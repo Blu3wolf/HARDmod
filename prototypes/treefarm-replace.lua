@@ -47,14 +47,14 @@ data.raw["recipe"]["tf-bioreactor"].energy_required = 20
 data.raw["item"]["tf-stone-crusher"].subgroup = "production-machine"
 data.raw["recipe"]["tf-stone-crusher"].enabled = "true"
 bobmods.lib.remove_technology_recipe("tf-fertilizer", "tf-stone-crusher")
-data.raw["item"]["tf-stone-crusher"].icon = "__NARMod__/graphics/icons/crusher.png"
+data.raw["item"]["tf-stone-crusher"].icon = "__HARDmod__/graphics/icons/crusher.png"
 data.raw["item"]["tf-stone-crusher"].stack_size = 5
 data.raw["recipe"]["tf-stone-crusher"].ingredients = {
 	{"iron-plate", 5},
 	{"basic-motor", 2},
     {"iron-gear-wheel",8}
 }
-data.raw["item"]["tf-biolab"].icon = "__NARMod__/graphics/icons/hydroponic-farm.png"
+data.raw["item"]["tf-biolab"].icon = "__HARDmod__/graphics/icons/hydroponic-farm.png"
 data.raw["item"]["tf-biolab"].subgroup = "organic-production"
 data.raw["item"]["tf-biolab"].order = "a[hydroponic-farm]"
 data.raw["item"]["tf-biolab"].stack_size = 3
@@ -66,11 +66,11 @@ data.raw["recipe"]["tf-biolab"].ingredients =
 	{"pipe", 10},
 	{"air-compressor", 2}
 }
-data.raw["assembling-machine"]["tf-biolab"].icon = "__NARMod__/graphics/icons/hydroponic-farm.png"
+data.raw["assembling-machine"]["tf-biolab"].icon = "__HARDmod__/graphics/icons/hydroponic-farm.png"
 data.raw["assembling-machine"]["tf-biolab"].crafting_categories = "hydroponic-farm-crafting"
---data.raw["assembling-machine"]["tf-biolab"].animation.filename = "__NARMod__/graphics/entity/hydroponic-farm/hydroponic-farm.png"
+--data.raw["assembling-machine"]["tf-biolab"].animation.filename = "__HARDmod__/graphics/entity/hydroponic-farm/hydroponic-farm.png"
 data.raw["assembling-machine"]["tf-biolab"].animation = {
-	filename = "__NARMod__/graphics/entity/hydroponic-farm/hydroponic-farm.png",
+	filename = "__HARDmod__/graphics/entity/hydroponic-farm/hydroponic-farm.png",
 	priority = "extra-high",
 	width = 99,
 	height = 107,

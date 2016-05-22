@@ -7,7 +7,7 @@ data:extend( {
 	
     type = "item",
     name = "photovoltaic-cell",
-    icon = "__NARMod__/graphics/icons/photovoltaic-cell.png",
+    icon = "__HARDmod__/graphics/icons/photovoltaic-cell.png",
     flags = {"goes-to-main-inventory"},
     order = "0-a1[photovoltaic-cell]",
 	subgroup = "power-source",
@@ -59,7 +59,7 @@ data:extend( {
   {
     type = "item",
     name = "fiberglass-substrate",
-    icon = "__NARMod__/graphics/icons/electronics/fiberglass-substrate.png",
+    icon = "__HARDmod__/graphics/icons/electronics/fiberglass-substrate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "substrates",
     order = "b",
@@ -85,7 +85,7 @@ data:extend( {
   {
     type = "item",
     name = "superior-fiberglass-substrate",
-    icon = "__NARMod__/graphics/icons/electronics/superior-fiberglass-substrate.png",
+    icon = "__HARDmod__/graphics/icons/electronics/superior-fiberglass-substrate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "substrates",
     order = "c",
@@ -114,7 +114,7 @@ data:extend( {
   {
     type = "item",
     name = "fr4-substrate",
-    icon = "__NARMod__/graphics/icons/electronics/fr4-substrate.png",
+    icon = "__HARDmod__/graphics/icons/electronics/fr4-substrate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "substrates",
     order = "d",
@@ -145,7 +145,7 @@ data:extend( {
   {
     type = "item",
     name = "tinned-copper-wire",
-    icon = "__NARMod__/graphics/icons/electronics/tinned-copper-wire.png",
+    icon = "__HARDmod__/graphics/icons/electronics/tinned-copper-wire.png",
     flags = {"goes-to-main-inventory"},
     order = "b",
 	subgroup = "wiring",
@@ -170,7 +170,7 @@ data:extend( {
   {
     type = "item",
     name = "insulated-copper-wire",
-    icon = "__NARMod__/graphics/icons/electronics/insulated-copper-wire.png",
+    icon = "__HARDmod__/graphics/icons/electronics/insulated-copper-wire.png",
     flags = {"goes-to-main-inventory"},
     order = "c",
 		subgroup = "wiring",
@@ -195,7 +195,7 @@ data:extend( {
   {
     type = "item",
     name = "gilded-copper-wire",
-    icon = "__NARMod__/graphics/icons/electronics/gilded-copper-wire.png",
+    icon = "__HARDmod__/graphics/icons/electronics/gilded-copper-wire.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "wiring",
     order = "d",
@@ -220,7 +220,7 @@ data:extend( {
   {
     type = "item",
     name = "solder",
-    icon = "__NARMod__/graphics/icons/electronics/solder.png",
+    icon = "__HARDmod__/graphics/icons/electronics/solder.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "wiring",
     order = "e",
@@ -248,7 +248,7 @@ data:extend( {
   {
     type = "item",
     name = "epoxy",
-    icon = "__NARMod__/graphics/icons/electronics/epoxy.png",
+    icon = "__HARDmod__/graphics/icons/electronics/epoxy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "wiring",
     order = "f",
@@ -274,7 +274,7 @@ data:extend( {
   {
     type = "item",
     name = "resistors",
-    icon = "__NARMod__/graphics/icons/electronics/resistors.png",
+    icon = "__HARDmod__/graphics/icons/electronics/resistors.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronic-components",
     order = "a",
@@ -300,7 +300,7 @@ data:extend( {
   {
     type = "item",
     name = "inductors-2",
-    icon = "__NARMod__/graphics/icons/electronics/inductors-2.png",
+    icon = "__HARDmod__/graphics/icons/electronics/inductors-2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronic-components",
     order = "b",
@@ -326,7 +326,7 @@ data:extend( {
   {
     type = "item",
     name = "capacitors",
-    icon = "__NARMod__/graphics/icons/electronics/capacitors.png",
+    icon = "__HARDmod__/graphics/icons/electronics/capacitors.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronic-components",
     order = "c",
@@ -353,7 +353,7 @@ data:extend( {
   {
     type = "item",
     name = "integrated-circuit",
-    icon = "__NARMod__/graphics/icons/electronics/integrated-circuit.png",
+    icon = "__HARDmod__/graphics/icons/electronics/integrated-circuit.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electronic-components",
     order = "e",
@@ -382,7 +382,7 @@ data:extend( {
   {
     type = "item",
     name = "microchip",
-    icon = "__NARMod__/graphics/icons/electronics/microchip.png",
+    icon = "__HARDmod__/graphics/icons/electronics/microchip.png",
     flags = {"goes-to-main-inventory"},
     order = "f",
 	subgroup = "electronic-components",
@@ -414,7 +414,7 @@ data:extend( {
   {
     type = "item",
     name = "cpu",
-    icon = "__NARMod__/graphics/icons/electronics/cpu.png",
+    icon = "__HARDmod__/graphics/icons/electronics/cpu.png",
     flags = {"goes-to-main-inventory"},
     order = "g",
 	    subgroup = "electronic-components",
@@ -445,7 +445,7 @@ data:extend( {
   {
     type = "item",
     name = "heatsink",
-    icon = "__NARMod__/graphics/icons/electronics/heatsink.png",
+    icon = "__HARDmod__/graphics/icons/electronics/heatsink.png",
     flags = {"goes-to-main-inventory"},
 	subgroup = "wiring",
     order = "g",
@@ -475,7 +475,7 @@ data:extend( {
   {
     type = "item",
     name = "electronic-circuit",
-    icon = "__NARMod__/graphics/icons/electronics/basic-circuit-board.png",
+    icon = "__HARDmod__/graphics/icons/electronics/basic-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "circuit-boards",
     order = "a",
@@ -499,7 +499,7 @@ data:extend( {
     {
     type = "item",
     name = "advanced-circuit",
-    icon = "__NARMod__/graphics/icons/electronics/advanced-circuit-board.png",
+    icon = "__HARDmod__/graphics/icons/electronics/advanced-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "circuit-boards",
     order = "b",
@@ -528,7 +528,7 @@ data:extend( {
     {
     type = "item",
     name = "processing-unit",
-    icon = "__NARMod__/graphics/icons/electronics/electronic-processing-board.png",
+    icon = "__HARDmod__/graphics/icons/electronics/electronic-processing-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "circuit-boards",
     order = "c",
@@ -558,7 +558,7 @@ data:extend( {
     {
     type = "item",
     name = "motherboard",
-    icon = "__NARMod__/graphics/icons/electronics/motherboard.png",
+    icon = "__HARDmod__/graphics/icons/electronics/motherboard.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "circuit-boards",
     order = "d",
@@ -588,7 +588,7 @@ data:extend( {
   {
     type = "item",
     name = "module-case-mk1",
-    icon = "__NARMod__/graphics/icons/electronics/module-case-mk1.png",
+    icon = "__HARDmod__/graphics/icons/electronics/module-case-mk1.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module-intermediates",
     order = "c-0[module-case-mk1]",
@@ -614,7 +614,7 @@ data:extend( {
   {
     type = "item",
     name = "module-case-mk2",
-    icon = "__NARMod__/graphics/icons/electronics/module-case-mk2.png",
+    icon = "__HARDmod__/graphics/icons/electronics/module-case-mk2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module-intermediates",
     order = "c-0[module-case-mk2]",
@@ -642,7 +642,7 @@ data:extend( {
   {
     type = "item",
     name = "module-case-mk3",
-    icon = "__NARMod__/graphics/icons/electronics/module-case-mk3.png",
+    icon = "__HARDmod__/graphics/icons/electronics/module-case-mk3.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module-intermediates",
     order = "c-0[module-case-mk3]",
@@ -670,7 +670,7 @@ data:extend( {
   {
     type = "item",
     name = "module-contact",
-    icon = "__NARMod__/graphics/icons/electronics/module-contact.png",
+    icon = "__HARDmod__/graphics/icons/electronics/module-contact.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module-intermediates",
     order = "c-1[module-contact]",

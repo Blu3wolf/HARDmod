@@ -74,7 +74,7 @@ function assembler2pipepicturesCokery()
   {
     north =
     {
-      filename = "__NARMod__/graphics/icons/empty.png",
+      filename = "__HARDmod__/graphics/icons/empty.png",
       priority = "extra-high",
       width = 32,
       height = 32,
@@ -90,7 +90,7 @@ function assembler2pipepicturesCokery()
     },
     south =
     {
-      filename = "__NARMod__/graphics/icons/empty.png",
+      filename = "__HARDmod__/graphics/icons/empty.png",
       priority = "extra-high",
       width = 32,
       height = 32,
@@ -111,7 +111,7 @@ pipecoverspicturesCokery = function()
   return {
     north =
     {
-      filename = "__NARMod__/graphics/icons/empty.png",
+      filename = "__HARDmod__/graphics/icons/empty.png",
       priority = "extra-high",
       width = 32,
       height = 32
@@ -125,7 +125,7 @@ pipecoverspicturesCokery = function()
     },
     south =
     {
-      filename = "__NARMod__/graphics/icons/empty.png",
+      filename = "__HARDmod__/graphics/icons/empty.png",
       priority = "extra-high",
       width = 32,
       height = 32
@@ -145,7 +145,7 @@ function assembler2pipepicturesBioreactor()
   {
     north =
     {
-      filename = "__NARMod__/graphics/icons/empty.png",
+      filename = "__HARDmod__/graphics/icons/empty.png",
       priority = "extra-high",
       width = 32,
       height = 32,
@@ -153,7 +153,7 @@ function assembler2pipepicturesBioreactor()
     },
     east =
     {
-      filename = "__NARMod__/graphics/entity/bioreactor/pipe-east.png",
+      filename = "__HARDmod__/graphics/entity/bioreactor/pipe-east.png",
       priority = "extra-high",
       width = 41,
       height = 40,
@@ -161,7 +161,7 @@ function assembler2pipepicturesBioreactor()
     },
     south =
     {
-      filename = "__NARMod__/graphics/entity/bioreactor/pipe-south.png",
+      filename = "__HARDmod__/graphics/entity/bioreactor/pipe-south.png",
       priority = "extra-high",
       width = 41,
       height = 40,
@@ -169,7 +169,7 @@ function assembler2pipepicturesBioreactor()
     },
     west =
     {
-      filename = "__NARMod__/graphics/entity/bioreactor/pipe-west.png",
+      filename = "__HARDmod__/graphics/entity/bioreactor/pipe-west.png",
       priority = "extra-high",
       width = 41,
       height = 40,
@@ -182,7 +182,7 @@ pipecoverspicturesBioreactor = function()
   return {
     north =
     {
-      filename = "__NARMod__/graphics/icons/empty.png",
+      filename = "__HARDmod__/graphics/icons/empty.png",
       priority = "extra-high",
       width = 32,
       height = 32

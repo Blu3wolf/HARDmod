@@ -64,7 +64,7 @@ data:extend(
 	{
     type = "item",
     name = "lab",
-    icon = "__NARMod__/graphics/icons/lab.png",
+    icon = "__HARDmod__/graphics/icons/lab.png",
     flags = {"goes-to-quickbar"},
     subgroup = "lab",
     order = "g[lab]",
@@ -75,7 +75,7 @@ data:extend(
 	{
     type = "lab",
     name = "lab",
-    icon = "__NARMod__/graphics/icons/lab.png",
+    icon = "__HARDmod__/graphics/icons/lab.png",
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "lab"},
     max_health = 150,
@@ -86,7 +86,7 @@ data:extend(
     light = {intensity = 0.75, size = 8},
     on_animation =
     {
-      filename = "__NARMod__/graphics/entity/lab/lab.png",
+      filename = "__HARDmod__/graphics/entity/lab/lab.png",
       width = 153,
       height = 131,
       axially_symmetrical = false,
@@ -98,7 +98,7 @@ data:extend(
     },
     off_animation =
     {
-      filename = "__NARMod__/graphics/entity/lab/lab.png",
+      filename = "__HARDmod__/graphics/entity/lab/lab.png",
       width = 153,
       height = 131,
       axially_symmetrical = false,
@@ -477,7 +477,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "workshop",
-    icon = "__NARMod__/graphics/icons/workshop.png",
+    icon = "__HARDmod__/graphics/icons/workshop.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "workshop"},
     max_health = 200,
@@ -494,7 +494,7 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation=
     {
-      filename= "__NARMod__/graphics/entity/workshop/workshop.png",
+      filename= "__HARDmod__/graphics/entity/workshop/workshop.png",
       priority= "medium",
       width= 212,
       height= 180,
@@ -547,7 +547,7 @@ data:extend(
     name = "workshop",
 	subgroup = "alt-production",
 	order = "a",
-    icon = "__NARMod__/graphics/icons/workshop.png",
+    icon = "__HARDmod__/graphics/icons/workshop.png",
     flags = {"goes-to-quickbar"},
     order = "e[workshop]",
     place_result = "workshop",
@@ -572,7 +572,7 @@ data:extend(
 	{
     type = "mining-tool",
     name = "wooden-axe",
-    icon = "__NARMod__/graphics/icons/wooden-axe.png",
+    icon = "__HARDmod__/graphics/icons/wooden-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {

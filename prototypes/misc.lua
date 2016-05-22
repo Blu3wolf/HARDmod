@@ -5,7 +5,7 @@ data:extend(
 	{
     type = "mining-tool",
     name = "titanium-axe",
-    icon = "__NARMod__/graphics/icons/titanium-axe.png",
+    icon = "__HARDmod__/graphics/icons/titanium-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {

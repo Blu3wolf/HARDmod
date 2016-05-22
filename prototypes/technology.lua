@@ -1,15 +1,15 @@
 	
-data.raw["technology"]["speed-module"].icon = "__NARMod__/graphics/icons/speed-module-1.png"
-data.raw["technology"]["speed-module-2"].icon = "__NARMod__/graphics/icons/speed-module-2.png"
-data.raw["technology"]["speed-module-3"].icon = "__NARMod__/graphics/icons/speed-module-3.png"
+data.raw["technology"]["speed-module"].icon = "__HARDmod__/graphics/icons/speed-module-1.png"
+data.raw["technology"]["speed-module-2"].icon = "__HARDmod__/graphics/icons/speed-module-2.png"
+data.raw["technology"]["speed-module-3"].icon = "__HARDmod__/graphics/icons/speed-module-3.png"
 
-data.raw["technology"]["effectivity-module"].icon = "__NARMod__/graphics/icons/effectivity-module-1.png"
-data.raw["technology"]["effectivity-module-2"].icon = "__NARMod__/graphics/icons/effectivity-module-2.png"
-data.raw["technology"]["effectivity-module-3"].icon = "__NARMod__/graphics/icons/effectivity-module-3.png"
+data.raw["technology"]["effectivity-module"].icon = "__HARDmod__/graphics/icons/effectivity-module-1.png"
+data.raw["technology"]["effectivity-module-2"].icon = "__HARDmod__/graphics/icons/effectivity-module-2.png"
+data.raw["technology"]["effectivity-module-3"].icon = "__HARDmod__/graphics/icons/effectivity-module-3.png"
 
-data.raw["technology"]["productivity-module"].icon = "__NARMod__/graphics/icons/productivity-module-1.png"
-data.raw["technology"]["productivity-module-2"].icon = "__NARMod__/graphics/icons/productivity-module-2.png"
-data.raw["technology"]["productivity-module-3"].icon = "__NARMod__/graphics/icons/productivity-module-3.png"
+data.raw["technology"]["productivity-module"].icon = "__HARDmod__/graphics/icons/productivity-module-1.png"
+data.raw["technology"]["productivity-module-2"].icon = "__HARDmod__/graphics/icons/productivity-module-2.png"
+data.raw["technology"]["productivity-module-3"].icon = "__HARDmod__/graphics/icons/productivity-module-3.png"
 
 -- VANILLA TECH ORDERING
 
@@ -51,7 +51,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "material-processing",
-		icon = "__NARMod__/graphics/icons/technology/froth-flotation-unit.png",
+		icon = "__HARDmod__/graphics/icons/technology/froth-flotation-unit.png",
 		prerequisites= {"air-compressor"},
 		unit =
 			{
@@ -84,7 +84,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "chemical-processing-1",
-		icon = "__NARMod__/graphics/icons/technology/chemistry.png",
+		icon = "__HARDmod__/graphics/icons/technology/chemistry.png",
 		prerequisites= {"cokery-manufacturing","extraction-technology"},
 		unit =
 		{
@@ -113,7 +113,7 @@ data:extend({
 	{
     type = "technology",
     name = "electrolysis-1",
-    icon = "__NARMod__/graphics/icons/technology/electrolysis.png",
+    icon = "__HARDmod__/graphics/icons/technology/electrolysis.png",
 	prerequisites = {"chemical-processing-1"},
 	unit =
     {
@@ -141,7 +141,7 @@ data:extend({
   {
     type = "technology",
     name = "evaporators",
-    icon = "__NARMod__/graphics/icons/technology/evaporation.png",
+    icon = "__HARDmod__/graphics/icons/technology/evaporation.png",
     prerequisites =
     {
 	  "electrolysis-1", "air-compressor"
@@ -192,7 +192,7 @@ data:extend({
 	{
 		type = "technology",
 		name= "tin-and-lead-processing",
-		icon="__NARMod__/graphics/icons/technology/tin-lead-plate.png",
+		icon="__HARDmod__/graphics/icons/technology/tin-lead-plate.png",
 		prerequisites= {"advanced-material-processing"},
 		unit=
 		{
@@ -257,7 +257,7 @@ data:extend({
   {
 		type = "technology",
 		name = "cokery-manufacturing",
-		icon = "__NARMod__/graphics/icons/technology/cokery-manufacturing.png",
+		icon = "__HARDmod__/graphics/icons/technology/cokery-manufacturing.png",
 		unit =
 		{
 			count = 30,
@@ -311,7 +311,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "blast-furnaces",
-		icon = "__NARMod__/graphics/icons/technology/blast-furnaces.png",
+		icon = "__HARDmod__/graphics/icons/technology/blast-furnaces.png",
 		prerequisites= {"stone-walls","air-compressor"},
 		unit =
 		{
@@ -394,7 +394,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "extraction-technology",
-		icon = "__NARMod__/graphics/icons/technology/extraction-technology.png",
+		icon = "__HARDmod__/graphics/icons/technology/extraction-technology.png",
 		unit =
 		{
 		  count = 30,
@@ -437,7 +437,7 @@ data:extend({
 	{
     type = "technology",
     name = "chemical-processing-2",
-    icon = "__NARMod__/graphics/icons/technology/chemistry.png",
+    icon = "__HARDmod__/graphics/icons/technology/chemistry.png",
     prerequisites =
     {
       "chemical-processing-1",
@@ -469,7 +469,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "air-compressor",
-		icon = "__NARMod__/graphics/icons/air-pump.png",
+		icon = "__HARDmod__/graphics/icons/air-pump.png",
 		unit =
 		{
 		  count = 30,
@@ -525,7 +525,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "stone-walls",
-		icon = "__NARMod__/graphics/icons/technology/concrete-manufacturing.png",
+		icon = "__HARDmod__/graphics/icons/technology/concrete-manufacturing.png",
 		prerequisites =
 		{
 			"cokery-manufacturing",
@@ -562,7 +562,7 @@ data:extend({
   {
     type = "technology",
     name = "advanced-material-processing",
-    icon = "__NARMod__/graphics/icons/technology/electric-furnaces.png",
+    icon = "__HARDmod__/graphics/icons/technology/electric-furnaces.png",
     effects =
     {
       {
@@ -775,7 +775,7 @@ data:extend({
    {
     type = "technology",
     name = "engine",
-    icon = "__NARMod__/graphics/icons/technology/electric-motor.png",
+    icon = "__HARDmod__/graphics/icons/technology/electric-motor.png",
     prerequisites = {"steel-processing", "automation-2", "zinc-and-brass-processing"},
 	unit =
     {
@@ -800,7 +800,7 @@ data:extend({
   {
     type = "technology",
     name = "air-handling",
-    icon = "__NARMod__/graphics/icons/technology/air-handling.png",
+    icon = "__HARDmod__/graphics/icons/technology/air-handling.png",
     prerequisites =
     {
 	  "air-compressor",
@@ -849,7 +849,7 @@ data:extend({
   {
     type = "technology",
     name = "advanced-material-processing-2",
-    icon = "__NARMod__/graphics/icons/technology/electric-furnaces.png",
+    icon = "__HARDmod__/graphics/icons/technology/electric-furnaces.png",
     prerequisites =
     {
 	  "advanced-material-processing",
@@ -875,7 +875,7 @@ data:extend({
   {
     type = "technology",
     name = "arc-welding",
-    icon = "__NARMod__/graphics/icons/technology/arc-welding.png",
+    icon = "__HARDmod__/graphics/icons/technology/arc-welding.png",
     prerequisites =
     {
       "air-handling",
@@ -973,7 +973,7 @@ data:extend({
   {
     type = "technology",
     name = "chemical-processing-3",
-    icon = "__NARMod__/graphics/icons/technology/chemistry.png",
+    icon = "__HARDmod__/graphics/icons/technology/chemistry.png",
     prerequisites =
     {
       "chemical-processing-2","arc-welding","oil-processing",
@@ -1066,7 +1066,7 @@ data:extend({
   {
     type = "technology",
     name = "electrolysis-2",
-    icon = "__NARMod__/graphics/icons/technology/electrolysis.png",
+    icon = "__HARDmod__/graphics/icons/technology/electrolysis.png",
     prerequisites =
     {
       "electrolysis-1",
@@ -1139,7 +1139,7 @@ data:extend({
   {
     type = "technology",
     name = "electric-engine",
-    icon = "__NARMod__/graphics/icons/technology/large-electric-motor.png",
+    icon = "__HARDmod__/graphics/icons/technology/large-electric-motor.png",
     prerequisites = {"engine", "chemical-processing-3", "ceramics"},
 	unit =
     {
@@ -1164,7 +1164,7 @@ data:extend({
   {
     type = "technology",
     name = "ceramics",
-    icon = "__NARMod__/graphics/icons/technology/ceramics.png",
+    icon = "__HARDmod__/graphics/icons/technology/ceramics.png",
     prerequisites =
     {
       "air-handling",
@@ -1288,7 +1288,7 @@ data:extend({
   {
     type = "technology",
     name = "automobilism",
-    icon = "__NARMod__/graphics/icons/technology/military-vehicles.png",
+    icon = "__HARDmod__/graphics/icons/technology/military-vehicles.png",
     effects =
     {
       {
@@ -1313,7 +1313,7 @@ data:extend({
   {
     type = "technology",
     name = "laser",
-    icon = "__NARMod__/graphics/icons/technology/laser.png",
+    icon = "__HARDmod__/graphics/icons/technology/laser.png",
     prerequisites = {"optics", "advanced-electronics","air-handling"},
 	effects =
     {
@@ -1365,7 +1365,7 @@ data:extend({
   {
     type = "technology",
     name = "synthetic-rubber",
-    icon = "__NARMod__/graphics/icons/technology/synthetic-rubber.png",
+    icon = "__HARDmod__/graphics/icons/technology/synthetic-rubber.png",
     prerequisites = {"chemical-processing-3"},
 	unit =
     {
@@ -1402,7 +1402,7 @@ data:extend({
   {
     type = "technology",
     name = "zinc-and-brass-processing",
-    icon = "__NARMod__/graphics/icons/technology/zinc-and-brass-processing.png",
+    icon = "__HARDmod__/graphics/icons/technology/zinc-and-brass-processing.png",
     prerequisites =
     {
 	  "tin-and-lead-processing",
@@ -1536,7 +1536,7 @@ data:extend({
       time = 30
     },
 	order = "b-c-f",
-	icon="__NARMod__/graphics/icons/technology/gold-processing.png",
+	icon="__HARDmod__/graphics/icons/technology/gold-processing.png",
     effects=
     {
 	  {
@@ -1589,7 +1589,7 @@ data:extend({
       time = 30
     },
 	order = "b-c-g",
-	icon="__NARMod__/graphics/icons/plate/aluminium-plate.png",
+	icon="__HARDmod__/graphics/icons/plate/aluminium-plate.png",
     effects=
     {
       {
@@ -1829,7 +1829,7 @@ data:extend({
   {
     type = "technology",
     name = "advanced-electronics-3",
-    icon = "__NARMod__/graphics/icons/technology/monocrystalline-silicon.png",
+    icon = "__HARDmod__/graphics/icons/technology/monocrystalline-silicon.png",
     prerequisites =
     {
       "advanced-electronics-2"
@@ -1953,7 +1953,7 @@ data:extend({
 	type = "technology",
     name= "lithium-processing",
     prerequisites= {"advanced-material-processing-2","electrolysis-2"},
-	icon="__NARMod__/graphics/icons/plate/lithium-plate.png",
+	icon="__HARDmod__/graphics/icons/plate/lithium-plate.png",
     effects=
     {
 	  {
@@ -1987,7 +1987,7 @@ data:extend({
 	type = "technology",
     name= "titanium-processing",
     prerequisites= {"advanced-material-processing-2"},
-	icon="__NARMod__/graphics/icons/technology/titanium-processing.png",
+	icon="__HARDmod__/graphics/icons/technology/titanium-processing.png",
     unit=
     {
       count= 75,
@@ -2035,7 +2035,7 @@ data:extend({
 	type = "technology",
     name= "tungsten-processing",
     prerequisites= {"advanced-material-processing-2"},
-	icon="__NARMod__/graphics/icons/technology/tungsten-processing.png",
+	icon="__HARDmod__/graphics/icons/technology/tungsten-processing.png",
     unit=
     {
       count= 75,
@@ -2087,7 +2087,7 @@ data:extend({
 	type = "technology",
     name= "cobalt-processing",
     prerequisites= {"advanced-material-processing-2"},
-	icon="__NARMod__/graphics/icons/technology/cobalt-processing.png",
+	icon="__HARDmod__/graphics/icons/technology/cobalt-processing.png",
     effects=
     {
 	  {
@@ -2116,7 +2116,7 @@ data:extend({
   {
 		type = "technology",
 		name = "biotechnology",
-		icon = "__NARMod__/graphics/icons/technology/biotechnology.png",
+		icon = "__HARDmod__/graphics/icons/technology/biotechnology.png",
 		prerequisites = {"advanced-electronics-2", "air-handling"},
 		effects = {
 			{
@@ -2159,7 +2159,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "fertilizer",
-		icon = "__NARMod__/graphics/icons/technology/fertilizer.png",
+		icon = "__HARDmod__/graphics/icons/technology/fertilizer.png",
 		prerequisites = {"biotechnology"},
 		effects = {
 				{
@@ -2206,7 +2206,7 @@ data:extend({
 	{
     type = "technology",
     name = "chemical-processing-4",
-    icon = "__NARMod__/graphics/icons/technology/chemistry.png",
+    icon = "__HARDmod__/graphics/icons/technology/chemistry.png",
     prerequisites =
     {
       "chemical-processing-3",
@@ -2281,7 +2281,7 @@ data:extend({
   {
     type = "technology",
     name = "battery",
-    icon = "__NARMod__/graphics/icons/battery.png",
+    icon = "__HARDmod__/graphics/icons/battery.png",
     prerequisites =
     {
       "lithium-processing",
@@ -2313,7 +2313,7 @@ data:extend({
   {
 		type = "technology",
 		name = "hydroponics",
-		icon = "__NARMod__/graphics/icons/technology/hydroponic-farms.png",
+		icon = "__HARDmod__/graphics/icons/technology/hydroponic-farms.png",
 		prerequisites = {"biotechnology"},
 		effects = {
 			{
@@ -2341,7 +2341,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "organic-plastic",
-		icon = "__NARMod__/graphics/icons/cellulose.png",
+		icon = "__HARDmod__/graphics/icons/cellulose.png",
 		prerequisites = {"biotechnology"},
 		effects = {
 			{
@@ -2365,7 +2365,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "medicine",
-		icon = "__NARMod__/graphics/icons/healing-pack.png",
+		icon = "__HARDmod__/graphics/icons/healing-pack.png",
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -2390,7 +2390,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "advanced-treefarming",
-		icon = "__NARMod__/graphics/icons/fieldmk2.png",
+		icon = "__HARDmod__/graphics/icons/fieldmk2.png",
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -2437,7 +2437,7 @@ data:extend({
   {
     type = "technology",
     name = "advanced-electronics-4",
-    icon = "__NARMod__/graphics/icons/technology/microchip-fabrication.png",
+    icon = "__HARDmod__/graphics/icons/technology/microchip-fabrication.png",
     prerequisites = {"advanced-electronics-3", "chemical-processing-4"},
     effects =
     {
@@ -2737,7 +2737,7 @@ data:extend({
   {
     type = "technology",
     name = "rocket-travel",
-    icon = "__NARMod__/graphics/icons/technology/space-travel.png",
+    icon = "__HARDmod__/graphics/icons/technology/space-travel.png",
     effects =
     {
       {

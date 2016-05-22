@@ -153,7 +153,7 @@ data:extend(
     ingredient_count= 1,
     energy_usage= "200kW",
     crafting_speed= 1,
-	icon="__NARMod__/graphics/icons/forge.png",
+	icon="__HARDmod__/graphics/icons/forge.png",
     energy_source=
     {
       type= "electric",
@@ -161,7 +161,7 @@ data:extend(
     },
 	animation=
     {
-      filename= "__NARMod__/graphics/entity/forge/forge2.png",
+      filename= "__HARDmod__/graphics/entity/forge/forge2.png",
       priority= "medium",
       width= 113,
       height= 91,
@@ -221,7 +221,7 @@ data:extend(
 	place_result= "forge",
 	stack_size= 1,
 	flags= { "goes-to-quickbar" },
-	icon="__NARMod__/graphics/icons/forge.png",
+	icon="__HARDmod__/graphics/icons/forge.png",
 	subgroup = "smelting-machine",
 	},
 	
@@ -243,7 +243,7 @@ data:extend(
 	{
     type = "item",
     name = "long-handed-burner-inserter",
-    icon = "__NARMod__/graphics/icons/long-handed-burner-inserter.png",
+    icon = "__HARDmod__/graphics/icons/long-handed-burner-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserter",
     order = "c[long-handed-burner-inserter]",
@@ -254,7 +254,7 @@ data:extend(
 	{
     type = "inserter",
     name = "long-handed-burner-inserter",
-    icon = "__NARMod__/graphics/icons/long-handed-burner-inserter.png",
+    icon = "__HARDmod__/graphics/icons/long-handed-burner-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "long-handed-burner-inserter"},
     max_health = 40,
@@ -395,7 +395,7 @@ data:extend(
     {
     type = "item",
     name = "hermetically-sealed-assembler",
-    icon = "__NARMod__/graphics/icons/hermetically-sealed-assembler.png",
+    icon = "__HARDmod__/graphics/icons/hermetically-sealed-assembler.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "b[assembling-machine-2]",
@@ -406,7 +406,7 @@ data:extend(
 	{
     type = "assembling-machine",
     name = "hermetically-sealed-assembler",
-    icon = "__NARMod__/graphics/icons/hermetically-sealed-assembler.png",
+    icon = "__HARDmod__/graphics/icons/hermetically-sealed-assembler.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "hermetically-sealed-assembler"},
     max_health = 250,
@@ -459,7 +459,7 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation =
     {
-      filename = "__NARMod__/graphics/entity/hermetically-sealed-assembler/hermetically-sealed-assembler.png",
+      filename = "__HARDmod__/graphics/entity/hermetically-sealed-assembler/hermetically-sealed-assembler.png",
       priority = "high",
       width = 142,
       height = 113,
@@ -503,7 +503,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "air-compressor",
-    icon = "__NARMod__/graphics/icons/air-pump.png",
+    icon = "__bobplates__/graphics/entity/pump.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "air-compressor"},
     max_health = 150,
@@ -544,7 +544,7 @@ data:extend(
     {
       north =
       {
-        filename = "__NARMod__/graphics/entity/air-pump/air-pump.png",
+        filename = "__bobplates__/graphics/entity/pump/pump.png",
         width = 80,
         height = 80,
         frame_count = 8,
@@ -552,7 +552,7 @@ data:extend(
       },
       east =
       {
-        filename = "__NARMod__/graphics/entity/air-pump/air-pump.png",
+        filename = "__bobplates__/graphics/entity/pump/pump.png",
         y = 80,
         width = 80,
         height = 80,
@@ -561,7 +561,7 @@ data:extend(
       },
       south =
       {
-        filename = "__NARMod__/graphics/entity/air-pump/air-pump.png",
+        filename = "__bobplates__/graphics/entity/pump/pump.png",
         y = 160,
         width = 80,
         height = 80,
@@ -570,7 +570,7 @@ data:extend(
       },
       west =
       {
-        filename = "__NARMod__/graphics/entity/air-pump/air-pump.png",
+        filename = "__bobplates__/graphics/entity/pump/pump.png",
         y = 240,
         width = 80,
         height = 80,
@@ -583,7 +583,7 @@ data:extend(
   {
     type = "item",
     name = "air-compressor",
-    icon = "__NARMod__/graphics/icons/air-pump.png",
+    icon = "__HARDmod__/graphics/icons/air-pump.png",
     flags = {"goes-to-quickbar"},
     subgroup = "air",
     order = "e[air-pump]",

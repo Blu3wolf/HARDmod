@@ -11,7 +11,7 @@ data:extend(
     heat_capacity = "1KJ",
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=1.0, b=1.0},
-    icon = "__NARMod__/graphics/icons/compressed-air.png",
+    icon = "__HARDmod__/graphics/icons/compressed-air.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
 	subgroup = "gasses",
@@ -34,7 +34,7 @@ data:extend(
     {
       {type="fluid", name="compressed-air", amount=1}
     },
-    icon = "__NARMod__/graphics/icons/compressed-air.png",
+    icon = "__HARDmod__/graphics/icons/compressed-air.png",
     order = "b[fluid-chemistry]-b[compressed-air]"
   },
   
@@ -48,7 +48,7 @@ data:extend(
 		base_color = {r=0, g=0, b=0},
 		flow_color = {r=1.0, g=1.0, b=1.0},
 		max_temperature = -196,
-		icon = "__NARMod__/graphics/icons/liquid-air.png",
+		icon = "__HARDmod__/graphics/icons/liquid-air.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[liquid-air]"
@@ -64,7 +64,7 @@ data:extend(
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__NARMod__/graphics/icons/liquid-hydrogen.png",
+    icon = "__HARDmod__/graphics/icons/liquid-hydrogen.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -81,7 +81,7 @@ data:extend(
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__NARMod__/graphics/icons/hydrogen-gas.png",
+    icon = "__HARDmod__/graphics/icons/hydrogen-gas.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[hydrogen]"
@@ -103,7 +103,7 @@ data:extend(
     {
       {type="fluid", name="hydrogen-gas", amount=1}
     },
-    icon = "__NARMod__/graphics/icons/hydrogen-gas.png",
+    icon = "__HARDmod__/graphics/icons/hydrogen-gas.png",
     order = "b[fluid-chemistry]-b[hydrogen-gas]"
   },
   
@@ -123,7 +123,7 @@ data:extend(
     {
        {type="fluid", name="hydrogen-gas", amount=1}
     },
-    icon = "__NARMod__/graphics/icons/hydrogen-gas-to-atmosphere.png",
+    icon = "__HARDmod__/graphics/icons/hydrogen-gas-to-atmosphere.png",
     order = "b[fluid-chemistry]-b"
   },
 
@@ -137,7 +137,7 @@ data:extend(
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__NARMod__/graphics/icons/liquid-oxygen.png",
+    icon = "__HARDmod__/graphics/icons/liquid-oxygen.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -151,7 +151,7 @@ data:extend(
 		subgroup = "liquid-to-gas",
 		order = "e",
 		energy_required = 10,
-		icon = "__NARMod__/graphics/icons/oxygen-gas-to-liquid-oxygen.png",
+		icon = "__HARDmod__/graphics/icons/oxygen-gas-to-liquid-oxygen.png",
 		ingredients =
 		{
 		  {type="fluid", name="oxygen-gas", amount=10},
@@ -173,7 +173,7 @@ data:extend(
     base_color = {r=0.7, g=0, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__NARMod__/graphics/icons/oxygen-gas.png",
+    icon = "__HARDmod__/graphics/icons/oxygen-gas.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -187,7 +187,7 @@ data:extend(
 		subgroup = "liquid-to-gas",
 	order = "b",
 		energy_required = 1,
-		icon = "__NARMod__/graphics/icons/oxygen-gas.png",
+		icon = "__HARDmod__/graphics/icons/oxygen-gas.png",
 		ingredients =
 		{
 		  {type="fluid", name="liquid-oxygen", amount=1},
@@ -206,7 +206,7 @@ data:extend(
 		order = "b",
 			subgroup = "evaporation",
 		energy_required = 10,
-		icon = "__NARMod__/graphics/icons/oxygen-gas-to-atmosphere.png",
+		icon = "__HARDmod__/graphics/icons/oxygen-gas-to-atmosphere.png",
 		ingredients =
 		{
 		  {type="fluid", name="oxygen-gas", amount=10},
@@ -228,7 +228,7 @@ data:extend(
 		base_color = {r=0, g=0, b=0},
 		flow_color = {r=1.0, g=1.0, b=1.0},
 		max_temperature = -196,
-		icon = "__NARMod__/graphics/icons/co2-gas.png",
+		icon = "__HARDmod__/graphics/icons/co2-gas.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[co2-gas]"
@@ -241,7 +241,7 @@ data:extend(
 		subgroup = "gasses",
 	order = "d",
 		energy_required = 1,
-		icon = "__NARMod__/graphics/icons/dry-ice-to-co2-gas.png",
+		icon = "__HARDmod__/graphics/icons/dry-ice-to-co2-gas.png",
 		ingredients =
 		{
 		  {type="item", name="dry-ice", amount=1},
@@ -260,7 +260,7 @@ data:extend(
 		order = "d",
 			subgroup = "evaporation",
 		energy_required = 10,
-		icon = "__NARMod__/graphics/icons/co2-gas-to-atmosphere.png",
+		icon = "__HARDmod__/graphics/icons/co2-gas-to-atmosphere.png",
 		ingredients =
 		{
 		  {type="fluid", name="co2-gas", amount=10},
@@ -277,7 +277,7 @@ data:extend(
 	{
     type = "item",
     name = "dry-ice",
-    icon = "__NARMod__/graphics/icons/dry-ice.png",
+    icon = "__HARDmod__/graphics/icons/dry-ice.png",
     flags = {"goes-to-quickbar"},
     subgroup = "raw-material",
     order = "a[dry-ice]",
@@ -294,7 +294,7 @@ data:extend(
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__NARMod__/graphics/icons/liquid-nitrogen.png",
+    icon = "__HARDmod__/graphics/icons/liquid-nitrogen.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[nitrogen]"
@@ -310,7 +310,7 @@ data:extend(
     base_color = {r=0.0, g=0.0, b=1.0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__NARMod__/graphics/icons/nitrogen-gas.png",
+    icon = "__HARDmod__/graphics/icons/nitrogen-gas.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[nitrogen-gas]"
@@ -325,7 +325,7 @@ data:extend(
 		subgroup = "liquid-to-gas",
 	order = "a",
 		energy_required = 1,
-		icon = "__NARMod__/graphics/icons/nitrogen-gas.png",
+		icon = "__HARDmod__/graphics/icons/nitrogen-gas.png",
 		ingredients =
 		{
 		  {type="fluid", name="liquid-nitrogen", amount=1},
@@ -344,7 +344,7 @@ data:extend(
 			subgroup = "evaporation",
 			order = "a",
 		energy_required = 10,
-		icon = "__NARMod__/graphics/icons/nitrogen-gas-to-atmosphere.png",
+		icon = "__HARDmod__/graphics/icons/nitrogen-gas-to-atmosphere.png",
 		ingredients =
 		{
 		  {type="fluid", name="nitrogen-gas", amount=10},
@@ -366,7 +366,7 @@ data:extend(
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__NARMod__/graphics/icons/liquid-argon.png",
+    icon = "__HARDmod__/graphics/icons/liquid-argon.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -383,7 +383,7 @@ data:extend(
     base_color = {r=0.0, g=0.0, b=1.0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__NARMod__/graphics/icons/argon-gas.png",
+    icon = "__HARDmod__/graphics/icons/argon-gas.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -397,7 +397,7 @@ data:extend(
 		subgroup = "liquid-to-gas",
 	order = "e",
 		energy_required = 1,
-		icon = "__NARMod__/graphics/icons/argon-gas.png",
+		icon = "__HARDmod__/graphics/icons/argon-gas.png",
 		ingredients =
 		{
 		  {type="fluid", name="liquid-argon", amount=1},
@@ -416,7 +416,7 @@ data:extend(
 			subgroup = "evaporation",
 			order = "e",
 		energy_required = 10,
-		icon = "__NARMod__/graphics/icons/argon-gas-to-atmosphere.png",
+		icon = "__HARDmod__/graphics/icons/argon-gas-to-atmosphere.png",
 		ingredients =
 		{
 		  {type="fluid", name="argon-gas", amount=10},
@@ -439,7 +439,7 @@ data:extend(
 			order = "z",
 		category = "evaporator-crafting",
 		energy_required = 10,
-		icon = "__NARMod__/graphics/icons/water-evaporation.png",
+		icon = "__HARDmod__/graphics/icons/water-evaporation.png",
 		ingredients =
 		{
 		  {type="fluid", name="water", amount=10},
@@ -472,7 +472,7 @@ data:extend(
 	  {type="item", name="dry-ice", amount = 1},
     },
     subgroup = "gasses",
-    icon = "__NARMod__/graphics/icons/liquid-air.png",
+    icon = "__HARDmod__/graphics/icons/liquid-air.png",
     order = "c"
   },
   
@@ -497,7 +497,7 @@ data:extend(
 	  {type="fluid", name="argon-gas", amount=1},
     },
     subgroup = "gasses",
-    icon = "__NARMod__/graphics/icons/air-separation.png",
+    icon = "__HARDmod__/graphics/icons/air-separation.png",
     order = "c"
   },
   
@@ -506,7 +506,7 @@ data:extend(
 {
     type = "assembling-machine",
     name = "heat-exchanger",
-    icon = "__NARMod__/graphics/icons/heat-exchanger.png",
+    icon = "__HARDmod__/graphics/icons/heat-exchanger.png",
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "heat-exchanger"},
     max_health = 300,
@@ -531,7 +531,7 @@ data:extend(
     {
       north =
       {
-        filename = "__NARMod__/graphics/entity/heat-exchanger/heat-exchanger.png",
+        filename = "__HARDmod__/graphics/entity/heat-exchanger/heat-exchanger.png",
         width = 337,
         height = 255,
         frame_count = 1,
@@ -539,7 +539,7 @@ data:extend(
       },
       east =
       {
-        filename = "__NARMod__/graphics/entity/heat-exchanger/heat-exchanger.png",
+        filename = "__HARDmod__/graphics/entity/heat-exchanger/heat-exchanger.png",
         x = 337,
         width = 337,
         height = 255,
@@ -548,7 +548,7 @@ data:extend(
       },
       south =
       {
-        filename = "__NARMod__/graphics/entity/heat-exchanger/heat-exchanger.png",
+        filename = "__HARDmod__/graphics/entity/heat-exchanger/heat-exchanger.png",
         x = 674,
         width = 337,
         height = 255,
@@ -557,7 +557,7 @@ data:extend(
       },
       west =
       {
-        filename = "__NARMod__/graphics/entity/heat-exchanger/heat-exchanger.png",
+        filename = "__HARDmod__/graphics/entity/heat-exchanger/heat-exchanger.png",
         x = 1011,
         width = 337,
         height = 255,
@@ -574,7 +574,7 @@ data:extend(
         west_position = {1.8437, -1.2},
         animation =
         {
-          filename = "__NARMod__/graphics/entity/air-separation-unit/air-separation-steam.png",
+          filename = "__HARDmod__/placeholder-graphics/entity/air-separation-unit/air-separation-steam.png",
           frame_count = 29,
           width = 16,
           height = 35,
@@ -634,7 +634,7 @@ data:extend(
 {
     type = "item",
     name = "heat-exchanger",
-    icon = "__NARMod__/graphics/icons/heat-exchanger.png",
+    icon = "__HARDmod__/graphics/icons/heat-exchanger.png",
     flags = {"goes-to-quickbar"},
     subgroup = "air",
     order = "b[assembling-machine-2]",
@@ -663,7 +663,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "air-separation-unit",
-    icon = "__NARMod__/graphics/icons/air-separation-unit.png",
+    icon = "__HARDmod__/palceholder-graphics/icons/air-separation-unit.png",
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "air-separation-unit"},
     max_health = 300,
@@ -688,7 +688,7 @@ data:extend(
     {
       north =
       {
-        filename = "__NARMod__/graphics/entity/air-separation-unit/air-separation-unit.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/air-separation-unit/air-separation-unit.png",
         width = 337,
         height = 255,
         frame_count = 1,
@@ -696,7 +696,7 @@ data:extend(
       },
       east =
       {
-        filename = "__NARMod__/graphics/entity/air-separation-unit/air-separation-unit.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/air-separation-unit/air-separation-unit.png",
         x = 337,
         width = 337,
         height = 255,
@@ -705,7 +705,7 @@ data:extend(
       },
       south =
       {
-        filename = "__NARMod__/graphics/entity/air-separation-unit/air-separation-unit.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/air-separation-unit/air-separation-unit.png",
         x = 674,
         width = 337,
         height = 255,
@@ -714,7 +714,7 @@ data:extend(
       },
       west =
       {
-        filename = "__NARMod__/graphics/entity/air-separation-unit/air-separation-unit.png",
+        filename = "__HARDmod__/placeholder-graphics/entity/air-separation-unit/air-separation-unit.png",
         x = 1011,
         width = 337,
         height = 255,
@@ -731,7 +731,7 @@ data:extend(
         west_position = {1.8437, -1.2},
         animation =
         {
-          filename = "__NARMod__/graphics/entity/air-separation-unit/air-separation-steam.png",
+          filename = "__HARDmod__/placeholder-graphics/entity/air-separation-unit/air-separation-steam.png",
           frame_count = 29,
           width = 16,
           height = 35,
@@ -789,7 +789,7 @@ data:extend(
 {
     type = "item",
     name = "air-separation-unit",
-    icon = "__NARMod__/graphics/icons/air-separation-unit.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/air-separation-unit.png",
     flags = {"goes-to-quickbar"},
     subgroup = "air",
     order = "b[assembling-machine-2]",
@@ -818,7 +818,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "evaporator",
-    icon = "__NARMod__/graphics/icons/evaporator.png",
+    icon = "__HARDmod__/graphics/icons/evaporator.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "evaporator"},
     max_health = 250,
@@ -857,7 +857,7 @@ data:extend(
     {
       north =
       {
-        filename = "__NARMod__/graphics/entity/evaporator/evaporator.png",
+        filename = "__HARDmod__/graphics/entity/evaporator/evaporator.png",
         width = 156,
         height = 141,
         frame_count = 1,
@@ -865,7 +865,7 @@ data:extend(
       },
       west =
       {
-        filename = "__NARMod__/graphics/entity/evaporator/evaporator.png",
+        filename = "__HARDmod__/graphics/entity/evaporator/evaporator.png",
         x = 156,
         width = 156,
         height = 141,
@@ -874,7 +874,7 @@ data:extend(
       },
       south =
       {
-        filename = "__NARMod__/graphics/entity/evaporator/evaporator.png",
+        filename = "__HARDmod__/graphics/entity/evaporator/evaporator.png",
         x = 312,
         width = 156,
         height = 141,
@@ -883,7 +883,7 @@ data:extend(
       },
       east =
       {
-        filename = "__NARMod__/graphics/entity/evaporator/evaporator.png",
+        filename = "__HARDmod__/graphics/entity/evaporator/evaporator.png",
         x = 468,
         width = 156,
         height = 141,
@@ -900,7 +900,7 @@ data:extend(
         east_position = {0.05, -1.46},
         animation =
         {
-          filename = "__NARMod__/graphics/entity/evaporator/boiling-white-patch.png",
+          filename = "__HARDmod__/graphics/entity/evaporator/boiling-white-patch.png",
           frame_count = 35,
           width = 17,
           height = 12,
@@ -914,14 +914,14 @@ data:extend(
         east_position = {0.05, -0.96},
         north_animation =
         {
-          filename = "__NARMod__/graphics/entity/evaporator/boiling-window-white-patch.png",
+          filename = "__HARDmod__/graphics/entity/evaporator/boiling-window-white-patch.png",
           frame_count = 1,
           width = 21,
           height = 10
         },
         west_animation =
         {
-          filename = "__NARMod__/graphics/entity/evaporator/boiling-window-white-patch.png",
+          filename = "__HARDmod__/graphics/entity/evaporator/boiling-window-white-patch.png",
           x = 21,
           frame_count = 1,
           width = 21,
@@ -929,7 +929,7 @@ data:extend(
         },
         south_animation =
         {
-          filename = "__NARMod__/graphics/entity/evaporator/boiling-window-white-patch.png",
+          filename = "__HARDmod__/graphics/entity/evaporator/boiling-window-white-patch.png",
           x = 42,
           frame_count = 1,
           width = 21,
@@ -967,7 +967,7 @@ data:extend(
 {
     type = "item",
     name = "evaporator",
-    icon = "__NARMod__/graphics/icons/evaporator.png",
+    icon = "__HARDmod__/graphics/icons/evaporator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "air",
     order = "b[evaporator]",

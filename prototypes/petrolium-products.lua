@@ -63,7 +63,7 @@ data:extend(
     base_color = {r=1, g=1, b=0},
     flow_color = {r=1, g=1, b=0},
     max_temperature = 100,
-    icon = "__NARMod__/graphics/icons/untreated-petroleum-gas.png",
+    icon = "__HARDmod__/graphics/icons/untreated-petroleum-gas.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[petroleum-gas]"
@@ -84,7 +84,7 @@ data:extend(
 		{type="fluid", name="petroleum-gas", amount=25},
       {type="fluid", name="hydrogen-sulfide", amount=5}
     },
-    icon = "__NARMod__/graphics/icons/hydrogen-sulfide.png",
+    icon = "__HARDmod__/graphics/icons/hydrogen-sulfide.png",
     subgroup = "chemistry",
     enabled = "false",
     order = "b[fluid-chemistry]-c[hydrogen-sulfide]"

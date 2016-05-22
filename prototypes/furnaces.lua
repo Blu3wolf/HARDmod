@@ -5,7 +5,7 @@ data:extend({
  {
     type = "assembling-machine",
     name = "froth-flotation-unit",
-    icon = "__NARMod__/graphics/icons/froth-flotation-unit.png",
+    icon = "__HARDmod__/graphics/icons/froth-flotation-unit.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "froth-flotation-unit"},
     corpse = "big-remnants",
@@ -57,7 +57,7 @@ data:extend({
     {
       north =
       {
-        filename = "__NARMod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-1.png",
+        filename = "__HARDmod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-1.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -65,7 +65,7 @@ data:extend({
       },
       west =
       {
-        filename = "__NARMod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-2.png",
+        filename = "__HARDmod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-2.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -73,7 +73,7 @@ data:extend({
       },
       south =
       {
-        filename = "__NARMod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-1.png",
+        filename = "__HARDmod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-1.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -81,7 +81,7 @@ data:extend({
       },
       east =
       {
-        filename = "__NARMod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-2.png",
+        filename = "__HARDmod__/graphics/entity/froth-flotation-unit/froth-flotation-unit-2.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -105,7 +105,7 @@ data:extend({
 {
     type = "item",
     name = "froth-flotation-unit",
-    icon = "__NARMod__/graphics/icons/froth-flotation-unit.png",
+    icon = "__HARDmod__/graphics/icons/froth-flotation-unit.png",
     flags = {"goes-to-quickbar"},
     order = "e[froth-flotation-unit]",
 	subgroup = "alt-production",
@@ -146,7 +146,7 @@ data:extend({
     ingredient_count= 4,
     energy_usage="300kW",
 	crafting_speed=1,
-	icon="__NARMod__/graphics/icons/blastfurnace.png",
+	icon="__HARDmod__/graphics/icons/blastfurnace.png",
     energy_source=
     {
       type= "electric",
@@ -154,7 +154,7 @@ data:extend({
     },
     animation=
     {
-      filename= "__NARMod__/graphics/entity/blast-furnace/blastfurnace.png",
+      filename= "__HARDmod__/graphics/entity/blast-furnace/blastfurnace.png",
       priority= "medium",
       width= 212,
       height= 180,
@@ -243,7 +243,7 @@ data:extend({
 		stack_size= 1,
 		flags= { "goes-to-quickbar" },
 		subgroup = "smelting-machine",
-		icon="__NARMod__/graphics/icons/blastfurnace.png",
+		icon="__HARDmod__/graphics/icons/blastfurnace.png",
 	},
 
 	-- ELECTROLYSER
@@ -251,7 +251,7 @@ data:extend({
  {
     type = "assembling-machine",
     name = "electrolyser",
-    icon = "__NARMod__/graphics/icons/electrolyser.png",
+    icon = "__HARDmod__/graphics/icons/electrolyser.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser"},
     fast_replaceable_group = "electrolyser",
@@ -304,7 +304,7 @@ data:extend({
     {
       north =
       {
-        filename = "__NARMod__/graphics/entity/electrolyser/electro-vt1u.png",
+        filename = "__HARDmod__/graphics/entity/electrolyser/electro-vt1u.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -312,7 +312,7 @@ data:extend({
       },
       west =
       {
-        filename = "__NARMod__/graphics/entity/electrolyser/electro-h-t1l.png",
+        filename = "__HARDmod__/graphics/entity/electrolyser/electro-h-t1l.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -320,7 +320,7 @@ data:extend({
       },
       south =
       {
-        filename = "__NARMod__/graphics/entity/electrolyser/electro-vt1d.png",
+        filename = "__HARDmod__/graphics/entity/electrolyser/electro-vt1d.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -328,7 +328,7 @@ data:extend({
       },
       east =
       {
-        filename = "__NARMod__/graphics/entity/electrolyser/electro-h-t1r.png",
+        filename = "__HARDmod__/graphics/entity/electrolyser/electro-h-t1r.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -352,7 +352,7 @@ data:extend({
 {
     type = "item",
     name = "electrolyser",
-    icon = "__NARMod__/graphics/icons/electrolyser.png",
+    icon = "__HARDmod__/graphics/icons/electrolyser.png",
     flags = {"goes-to-quickbar"},
     order = "e[electrolyser-1]",
 	    subgroup = "alt-production",
@@ -379,7 +379,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "chemical-furnace",
-    icon = "__NARMod__/graphics/icons/chemical-furnace.png",
+    icon = "__HARDmod__/graphics/icons/chemical-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "chemical-furnace"},
     max_health = 250,
@@ -435,7 +435,7 @@ data:extend({
     },
     animation =
     {
-      filename = "__NARMod__/graphics/entity/chemical-furnace/chemical-furnace.png",
+      filename = "__HARDmod__/graphics/entity/chemical-furnace/chemical-furnace.png",
       priority = "high",
       width = 131,
       height = 102,
@@ -451,7 +451,7 @@ data:extend({
         east_position = { 0.09375, 0.96875 },
         animation =
         {
-          filename = "__NARMod__/graphics/entity/chemical-furnace/chemical-furnace-fire.png",
+          filename = "__HARDmod__/graphics/entity/chemical-furnace/chemical-furnace-fire.png",
           width = 29,
           height = 19,
           frame_count = 12,
@@ -466,7 +466,7 @@ data:extend({
     {
     type = "item",
     name = "chemical-furnace",
-    icon = "__NARMod__/graphics/icons/chemical-furnace.png",
+    icon = "__HARDmod__/graphics/icons/chemical-furnace.png",
     flags = {"goes-to-quickbar"},
     order = "c[chemical-furnace]",
 	    subgroup = "alt-production",
@@ -505,7 +505,7 @@ data:extend({
     ingredient_count= 5,
     energy_usage= "250kW",
     crafting_speed= 1,
-	icon="__NARMod__/graphics/icons/pressure-vessel.png",
+	icon="__HARDmod__/graphics/icons/pressure-vessel.png",
     energy_source=
     {
       type= "electric",
@@ -513,7 +513,7 @@ data:extend({
     },
     animation=
     {
-      filename= "__NARMod__/graphics/entity/pressure-vessel/pressure-vessel.png",
+      filename= "__HARDmod__/graphics/entity/pressure-vessel/pressure-vessel.png",
       priority= "medium",
       width= 96,
       height= 32,
@@ -541,7 +541,7 @@ data:extend({
 	place_result= "pressure-vessel",
 	stack_size= 3,
 	flags= { "goes-to-quickbar" },
-	icon="__NARMod__/graphics/icons/pressure-vessel.png",
+	icon="__HARDmod__/graphics/icons/pressure-vessel.png",
 	subgroup = "smelting-machine",
 	},
 	

@@ -3,7 +3,7 @@ data:extend({
   {
     type = "item",
     name = "rubber",
-    icon = "__NARMod__/graphics/icons/rubber.png",
+    icon = "__HARDmod__/graphics/icons/rubber.png",
     flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
     order = "f[rubber]",
@@ -35,7 +35,7 @@ data:extend({
     heat_capacity = "1KJ",
     base_color = {r=0, g=0.34, b=0.6},
     flow_color = {r=0.7, g=1.0, b=1.0},
-    icon = "__NARMod__/graphics/icons/brine-water.png",
+    icon = "__HARDmod__/graphics/icons/brine-water.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-a[brine-water]",
@@ -56,7 +56,7 @@ data:extend({
   {
     type = "resource",
     name = "brine-pool",
-    icon = "__NARMod__/graphics/entity/brine-pool/brine-pool.png",
+    icon = "__HARDmod__/placeholder-graphics/entity/brine-pool/brine-pool.png",
     flags = {"placeable-neutral"},
     category = "basic-fluid",
     order="a-b-a",
@@ -112,7 +112,7 @@ data:extend({
     {
 		sheet = 
 		{
-			filename = "__NARMod__/graphics/entity/brine-pool/brine-pool.png",
+			filename = "__HARDmod__/placeholder-graphics/entity/brine-pool/brine-pool.png",
 			priority = "extra-high",
 			width = 75,
 			height = 61,
