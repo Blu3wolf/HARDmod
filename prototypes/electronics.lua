@@ -59,7 +59,7 @@ data:extend( {
   {
     type = "item",
     name = "fiberglass-substrate",
-    icon = "__HARDmod__/graphics/icons/fiberglass-board-2.png",
+    icon = "__HARDmod__/graphics/icons/fibreglass-board-2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "substrates",
     order = "b",
@@ -614,7 +614,7 @@ data:extend( {
   {
     type = "item",
     name = "module-case-mk2",
-    icon = "__HARDmod__/placeholder-graphics/icons/electronics/module-case-mk2.png",
+    icon = "__bobmodules__/graphics/icons/god-module-1.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module-intermediates",
     order = "c-0[module-case-mk2]",
@@ -642,7 +642,7 @@ data:extend( {
   {
     type = "item",
     name = "module-case-mk3",
-    icon = "__HARDmod__/placeholder-graphics/icons/electronics/module-case-mk3.png",
+    icon = "__bobmodules__/graphics/icons/god-module-2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module-intermediates",
     order = "c-0[module-case-mk3]",

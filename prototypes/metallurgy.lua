@@ -522,7 +522,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "zinc-electrolysis",
-		icon = "__HARDmod__/placeholder-graphics/icons/electronics/solder.png",
+		icon = "__HARDmod__/graphics/icons/solder.png",
 		ingredients= {{type="fluid", name="zinc-sulphate", amount=10}},
 		enabled = "false",
 		category = "electrolysis",
@@ -538,7 +538,7 @@ data:extend(
 	{
 		type = "item",
 		name = "zinc-cathode",
-		icon = "__HARDmod__/placeholder-graphics/icons/electronics/solder.png",
+		icon = "__HARDmod__/graphics/icons/solder.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "molten-metals",
 		order = "e",
