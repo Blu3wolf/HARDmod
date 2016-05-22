@@ -1,13 +1,19 @@
+data.raw["recipe"]["tf-crushed-stone"].category = crushing
+data.raw["recipe"]["tf-crushed-stone"].energy_required = 10
+data.raw["recipe"]["tf-crushed-stone"].subgroup = "raw-ores"
+data.raw["recipe"]["tf-crushed-stone"].result_count = 1
+
+
 data:extend({	
 	
 		--------------- STONE PROCESSING ---------------
 
-	--[[ CRUSHED STONE
+	-- CRUSHED STONE
 
 	{
 		type = "item",
 		name = "stone",
-		icon = "__NARMod__/graphics/icons/stone.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/stone.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "raw-ores",
 		order = "d[stone]",
@@ -16,7 +22,7 @@ data:extend({
 	
 	{
 		type = "item",
-		name = "crushed-stone",
+		name = "tf-crushed-stone",
 		icon = "__base__/graphics/icons/stone.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "raw-ores",
@@ -24,27 +30,13 @@ data:extend({
 		stack_size = 50
 	},
 	
-	{
-		type = "recipe",
-		name = "crushed-stone",
-		category = "crushing",
-		subgroup = "raw-ores",
-		enabled = false,
-		energy_required = 10,
-		ingredients= {
-			{type="item",name="stone", amount=10},
-		},
-		results= {
-			{type="item", name="crushed-stone", amount=10},
-		},
-	}, ]]--
 	
-	--[[ STONE SORTER
+	-- STONE SORTER
 	
 	{
     type = "assembling-machine",
     name = "stone-sorter",
-    icon = "__NARMod__/graphics/icons/stone-sorter.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/stone-sorter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "stone-sorter"},
     max_health = 150,
@@ -101,7 +93,7 @@ data:extend({
     energy_usage = "50kW",
     animation =
     {
-      filename = "__NARMod__/graphics/entity/stone-sorter/stone-sorter.png",
+      filename = "__HARDmod__/placeholder-graphics/entity/stone-sorter/stone-sorter.png",
       priority = "high",
       width = 119,
       height = 99,
@@ -115,7 +107,7 @@ data:extend({
 	{
     type = "item",
     name = "stone-sorter",
-    icon = "__NARMod__/graphics/icons/stone-sorter.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/stone-sorter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "a[stone-sorter]",
@@ -137,14 +129,12 @@ data:extend({
 	result = "stone-sorter"
 	},	
 	
-	]]--
-	
-	--[[ QUARTZ
+	-- QUARTZ
 	
 	{
 		type = "item",
 		name = "quartz",
-		icon = "__NARMod__/graphics/icons/quartz.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/quartz.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "stone-sorter",
 		order = "d[quartz]",
@@ -155,20 +145,18 @@ data:extend({
 		type = "recipe",
 		name = "quartz",
 		subgroup = "stone-sorter",
-		icon = "__NARMod__/graphics/icons/quartz.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/quartz.png",
 		category = "stone-sorter",
 		enabled = "false",
 		energy_required= 2,
 		ingredients =
 		{
-			{type="item",name = "crushed-stone", amount = 2},
+			{type="item",name = "tf-crushed-stone", amount = 2},
 		},
 		results = {
 			{type="item",name = "quartz", amount = 1},
 		},
 	},
-	
-	]]--
 	
 	-- LIMESTONE
 	
@@ -192,19 +180,19 @@ data:extend({
 		energy_required= 3,
 		ingredients =
 		{
-			{type="item",name = "crushed-stone", amount = 2},
+			{type="item",name = "tf-crushed-stone", amount = 2},
 		},
 		results = {
 			{type="item",name = "limestone", amount = 1},
 		},
 	},
 	
-	--[[ CLAY
+	-- CLAY
 	
 	{
 		type = "item",
 		name = "clay",
-		icon = "__NARMod__/graphics/icons/clay.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/clay.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "stone-sorter",
 		order = "a[clay]",
@@ -214,14 +202,14 @@ data:extend({
 	{
 		type = "recipe",
 		name = "clay",
-		icon = "__NARMod__/graphics/icons/clay.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/clay.png",
 		category = "stone-sorter",
 		subgroup = "stone-sorter",
 		enabled = "false",
 		energy_required = 4,
 		ingredients =
 		{
-			{type="item",name = "crushed-stone", amount = 3},
+			{type="item",name = "tf-crushed-stone", amount = 3},
 		},
 		results = {
 			{type="item",name = "clay", amount = 1},
@@ -233,7 +221,7 @@ data:extend({
 	{
 		type = "item",
 		name = "salt",
-		icon = "__NARMod__/graphics/icons/salt.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/salt.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "stone-sorter",
 		order = "a[salt]",
@@ -243,14 +231,14 @@ data:extend({
 	{
 		type = "recipe",
 		name = "salt",
-		icon = "__NARMod__/graphics/icons/salt.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/salt.png",
 		subgroup = "stone-sorter",
 		category = "stone-sorter",
 		enabled = "false",
 		energy_required= 5,
 		ingredients =
 		{
-			{type="item",name = "crushed-stone", amount = 5},
+			{type="item",name = "tf-crushed-stone", amount = 5},
 		},
 		results = {
 			{type="item",name = "salt", amount = 1},
@@ -262,7 +250,7 @@ data:extend({
 	{
 		type = "item",
 		name = "phosphate-rock",
-		icon = "__NARMod__/graphics/icons/phosphate-rock.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/phosphate-rock.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "stone-sorter",
 		order = "a[salt]",
@@ -273,27 +261,25 @@ data:extend({
 		type = "recipe",
 		name = "phosphate-rock",
 		subgroup = "stone-sorter",
-		icon = "__NARMod__/graphics/icons/phosphate-rock.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/phosphate-rock.png",
 		category = "stone-sorter",
 		enabled = "false",
 		energy_required= 5,
 		ingredients =
 		{
-			{type="item",name = "crushed-stone", amount = 3},
+			{type="item",name = "tf-crushed-stone", amount = 3},
 		},
 		results = {
 			{type="item",name = "phosphate-rock", amount = 1},
 		},
 	},
 	
-	]]--
-	
 	-- CEMENT
 	
 	{
 	type = "item",
     name = "cement",
-    icon = "__NARMod__/graphics/icons/cement.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/cement.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-sorter",
     order = "a[cement]",
@@ -310,7 +296,7 @@ data:extend({
     {
 		{"limestone", 2},
 		{"clay", 1},
-		{"charcoal", 1},
+		{"tf-charcoal", 1},
 		{type="fluid", name="water", amount=1}
     },
 	result = "cement"
@@ -321,7 +307,7 @@ data:extend({
 	{
 	type = "item",
     name = "crucible",
-    icon = "__NARMod__/graphics/icons/crucible.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/crucible.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "a[clay]",
@@ -346,7 +332,7 @@ data:extend({
 	{
 	type = "item",
     name = "stone-brick",
-    icon = "__NARMod__/graphics/icons/reinforced-concrete-block.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/reinforced-concrete-block.png",
     flags = {"goes-to-quickbar"},
     subgroup = "intermediate-product",
     order = "a[stone-brick]",
@@ -361,7 +347,7 @@ data:extend({
 	energy_required= 2,
     ingredients =
     {
-		{"crushed-stone", 3},
+		{"tf-crushed-stone", 3},
 		{"cement", 1},
 		{"iron-stick", 2},
 		{type="fluid", name="water", amount=1}

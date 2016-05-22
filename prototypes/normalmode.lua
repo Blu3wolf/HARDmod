@@ -1,0 +1,1 @@
+data.raw["player"]["player"].crafting_categories = {"in-hand-crafting","workshop-crafting","crafting"}

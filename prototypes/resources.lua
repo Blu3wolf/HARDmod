@@ -1,95 +1,71 @@
-data:extend(
-{
+
+data:extend({
+
   {
-    type = "resource",
-    name = "chalcocite",
-    icon = "__base__/graphics/icons/copper-ore.png",
-    flags = {"placeable-neutral"},
-    order="a-b-a",
-    minable =
-    {
-      hardness = 0.9,
-      mining_particle = "copper-ore-particle",
-      mining_time = 2,
-      result = "chalcocite-ore"
-    },
-    collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
-    selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
-    autoplace =
-    {
-      control = "chalcocite",
-      sharpness = 1,
-      richness_multiplier = 13000,
-      richness_base = 350,
-      size_control_multiplier = 0.06,
-      peaks = {
-        {
-          influence = 0.2,
-          starting_area_weight_optimal = 0,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.65,
-          noise_layer = "copper-ore",
-          noise_octaves_difference = -1.9,
-          noise_persistence = 0.3,
-          starting_area_weight_optimal = 0,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.3,
-          starting_area_weight_optimal = 1,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.55,
-          noise_layer = "copper-ore",
-          noise_octaves_difference = -2.3,
-          noise_persistence = 0.4,
-          starting_area_weight_optimal = 1,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "iron-ore",
-          noise_octaves_difference = -2.3,
-          noise_persistence = 0.45,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "coal",
-          noise_octaves_difference = -2.3,
-          noise_persistence = 0.45,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "stone",
-          noise_octaves_difference = -3,
-          noise_persistence = 0.45,
-        },
-      },
-    },
-    stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
-    stages =
-    {
-      sheet =
-      {
-        filename = "__base__/graphics/entity/copper-ore/copper-ore.png",
-        priority = "extra-high",
-        width = 38,
-        height = 38,
-        frame_count = 4,
-        variation_count = 8
-      }
-    },
-    map_color = {r=0.803, g=0.388, b=0.215}
+    type = "item",
+    name = "rubber",
+    icon = "__NARMod__/graphics/icons/rubber.png",
+    flags = {"goes-to-main-inventory"},
+	subgroup = "raw-material",
+    order = "f[rubber]",
+    stack_size = 50
   },
   
-})
+    {
+    type = "recipe",
+    name = "rubber",
+    category = "chemistry",
+	enabled = false,
+    energy_required = 10,
+    ingredients =
+    {
+	  {type="fluid", name="butadiene", amount=5},
+      {type="fluid", name="hexane", amount=3},
+    },
+    result = "rubber",
+	result_count = 5,
+  },
+
+  {
+    type = "item",
+    name = "glass-plate",
+    icon = "__NARMod__/graphics/icons/glass-plate.png",
+    flags = {"goes-to-main-inventory"},
+	subgroup = "raw-material",
+    order = "f[glass-plate]",
+    stack_size = 50
+  }, 
+  
+  {
+    type = "recipe",
+    name = "glass-plate",
+    category = "chemical-furnace",
+    energy_required = 4,
+	enabled = false,
+    ingredients = {{ "quartz", 2}, { "limestone", 1} },
+    result = "glass-plate"
+  },
+
+  {
+    type = "item",
+    name = "silicon-wafer",
+    icon = "__NARMod__/graphics/icons/silicon-wafer.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "electronic-components",
+    order = "f[silicon-wafer]",
+    stack_size = 50
+  },
+
+    {
+    type = "recipe",
+    name = "silicon-wafer",
+    category = "clean-room-crafting",
+    enabled = "false",
+    energy_required = 5,
+    ingredients = {{"monocrystalline-silicon-plate", 1}},
+    result = "silicon-wafer",
+    result_count = 8
+  },
+}
+)
+
