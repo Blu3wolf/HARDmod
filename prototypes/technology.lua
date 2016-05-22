@@ -961,6 +961,10 @@ data:extend({
       },
       {
         type = "unlock-recipe",
+        recipe = "claus-process"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "light-oil-cracking"
       }
     },

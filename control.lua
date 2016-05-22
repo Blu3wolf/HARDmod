@@ -2,7 +2,7 @@ require "utils"
 require "defines"
 require "interfaces"
 
-remote.add_interface("narmod",
+remote.add_interface("hardmod",
 {
   Regenerate = function()
 	game.regenerate_entity("tin-ore")
