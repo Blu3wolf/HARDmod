@@ -379,7 +379,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "chemical-furnace",
-    icon = "__HARDmod__/graphics/icons/chemical-furnace.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/chemical-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "chemical-furnace"},
     max_health = 250,
@@ -435,7 +435,7 @@ data:extend({
     },
     animation =
     {
-      filename = "__HARDmod__/graphics/entity/chemical-furnace/chemical-furnace.png",
+      filename = "__HARDmod__/placeholder-graphics/entity/chemical-furnace/chemical-furnace.png",
       priority = "high",
       width = 131,
       height = 102,
@@ -451,7 +451,7 @@ data:extend({
         east_position = { 0.09375, 0.96875 },
         animation =
         {
-          filename = "__HARDmod__/graphics/entity/chemical-furnace/chemical-furnace-fire.png",
+          filename = "__HARDmod__/placeholder-graphics/entity/chemical-furnace/chemical-furnace-fire.png",
           width = 29,
           height = 19,
           frame_count = 12,
@@ -466,7 +466,7 @@ data:extend({
     {
     type = "item",
     name = "chemical-furnace",
-    icon = "__HARDmod__/graphics/icons/chemical-furnace.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/chemical-furnace.png",
     flags = {"goes-to-quickbar"},
     order = "c[chemical-furnace]",
 	    subgroup = "alt-production",
