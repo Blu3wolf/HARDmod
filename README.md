@@ -23,6 +23,8 @@ HARDmod is created by Bill 'Blu3wolf' Teale as a spiritual successor to NARMod b
     
 Certain graphics and designs contained in HARDmod were originally published in F-mod. These graphics and designs are Copyright (C) 2013 Ficolas, and are used under license. 
 
+The icons for electronic circuit boards contained in HARDmod were published to the Factorio forums by Cheutz. These icons are Copyright (C) 2016 Cheutz and are used under license.
+
 Some placeholder graphics contained in HARDmod alpha versions were originally published in DyTech. These placeholder graphics are Copyright (C) 2014 Dysoch, and will be removed before the full release. 
 
 Certain placeholder graphics contained in HARDmod alpha versions were originally published in NARMod. These placeholder graphics are Copyright (C) 2015 Damien Reave, and will be removed before the full release.
