@@ -469,7 +469,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "air-compressor",
-		icon = "__HARDmod__/graphics/icons/air-pump.png",
+		icon = "__bobplates__/graphics/icons/pump.png",
 		unit =
 		{
 		  count = 30,

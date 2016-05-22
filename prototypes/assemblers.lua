@@ -583,7 +583,7 @@ data:extend(
   {
     type = "item",
     name = "air-compressor",
-    icon = "__HARDmod__/graphics/icons/air-pump.png",
+    icon = "__bobplates__/graphics/icons/pump.png",
     flags = {"goes-to-quickbar"},
     subgroup = "air",
     order = "e[air-pump]",
