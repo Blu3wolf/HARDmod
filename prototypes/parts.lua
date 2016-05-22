@@ -208,8 +208,8 @@ data:extend(
 
   {
     type = "item",
-    name = "battery",
-    icon = "__HARDmod__/graphics/icons/battery.png",
+    name = "lithium-ion-battery",
+    icon = "__bobplates__/graphics/icons/lithium-ion-battery.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "f-c[lithium-ion-battery]",
@@ -218,7 +218,7 @@ data:extend(
 
   {
     type = "recipe",
-    name = "battery",
+    name = "lithium-ion-battery",
     category = "crafting",
     enabled = false,
     ingredients =
@@ -228,7 +228,7 @@ data:extend(
       {"tf-charcoal", 1},
       {"plastic-bar", 1},
     },
-    result = "battery",
+    result = "lithium-ion-battery",
   },
 	
 	-- IRON DRILL

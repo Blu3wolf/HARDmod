@@ -233,7 +233,7 @@ data:extend(
     ingredients =
     {
       {"steel-plate", 5},
-	  {"battery", 2},
+	  {"lithium-ion-battery", 2},
       {"electronic-circuit", 5},
       {"electric-motor", 1},
 	  {"arc-welding-electrode", 1},

@@ -438,36 +438,36 @@ data:extend( {
     result = "power-armor"
   },
   
-  -- BATTERY PACK
+  -- lithium-ion-battery PACK
   
   {
     type = "recipe",
-    name = "battery-equipment",
+    name = "lithium-ion-battery-equipment",
     enabled = "false",
     energy_required = 3,
     ingredients =
     {
-      {"battery", 2},
+      {"lithium-ion-battery", 2},
 	  {"advanced-circuit", 1},
       {"steel-plate", 1}
     },
-    result = "battery-equipment"
+    result = "lithium-ion-battery-equipment"
   },
   
-  -- BATTERY PACK MK2
+  -- lithium-ion-battery PACK MK2
   
   {
     type = "recipe",
-    name = "battery-mk2-equipment",
+    name = "lithium-ion-battery-mk2-equipment",
     enabled = "false",
     energy_required = 10,
     ingredients =
     {
-      {"battery", 5},
+      {"lithium-ion-battery", 5},
       {"processing-unit", 2},
 	  {"steel-plate", 2}
     },
-    result = "battery-mk2-equipment"
+    result = "lithium-ion-battery-mk2-equipment"
   },
   
   -- SOLAR PANEL EQUIPMENT

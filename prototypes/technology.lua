@@ -2280,8 +2280,8 @@ data:extend({
   
   {
     type = "technology",
-    name = "battery",
-    icon = "__HARDmod__/graphics/icons/battery.png",
+    name = "lithium-ion-battery",
+    icon = "__bobplates__/graphics/icons/lithium-ion-battery.png",
     prerequisites =
     {
       "lithium-processing",
@@ -2295,7 +2295,7 @@ data:extend({
       },
 	  {
         type = "unlock-recipe",
-        recipe = "battery"
+        recipe = "lithium-ion-battery"
       },
     },
 	unit = {
