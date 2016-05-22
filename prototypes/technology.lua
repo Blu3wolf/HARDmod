@@ -2313,7 +2313,7 @@ data:extend({
   {
 		type = "technology",
 		name = "hydroponics",
-		icon = "__HARDmod__/graphics/icons/technology/hydroponic-farms.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/technology/hydroponic-farms.png",
 		prerequisites = {"biotechnology"},
 		effects = {
 			{
