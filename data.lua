@@ -25,7 +25,7 @@ require("prototypes.vanilla-replace2")
 require("prototypes.vanilla-stack-size")
 require("prototypes.vanilla-warfare")
 
-if narmod.ChallengeMode == true then
+if hardmod.ChallengeMode == true then
   require("prototypes.challengemode")
   else
 	require("prototypes.normalmode")
