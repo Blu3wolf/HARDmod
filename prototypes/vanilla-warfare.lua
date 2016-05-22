@@ -442,7 +442,7 @@ data:extend( {
   
   {
     type = "recipe",
-    name = "lithium-ion-battery-equipment",
+    name = "battery-equipment",
     enabled = "false",
     energy_required = 3,
     ingredients =
@@ -451,14 +451,14 @@ data:extend( {
 	  {"advanced-circuit", 1},
       {"steel-plate", 1}
     },
-    result = "lithium-ion-battery-equipment"
+    result = "battery-equipment"
   },
   
   -- lithium-ion-battery PACK MK2
   
   {
     type = "recipe",
-    name = "lithium-ion-battery-mk2-equipment",
+    name = "battery-mk2-equipment",
     enabled = "false",
     energy_required = 10,
     ingredients =
@@ -467,7 +467,7 @@ data:extend( {
       {"processing-unit", 2},
 	  {"steel-plate", 2}
     },
-    result = "lithium-ion-battery-mk2-equipment"
+    result = "battery-mk2-equipment"
   },
   
   -- SOLAR PANEL EQUIPMENT
