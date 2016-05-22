@@ -143,7 +143,7 @@ data:extend(
     name = "fluids",
     order = "c-f",
     inventory_order = "a-a",
-    icon = "__HARDmod__/placeholder-graphics/icons/technology/fluids.png",
+    icon = "__bobplates__/graphics/icons/technology/fluids.png",
   },
   
   {
@@ -360,7 +360,7 @@ data:extend(
     name = "raw-materials",
     order = "z",
     inventory_order = "a-b",
-    icon = "__HARDmod__/placeholder-graphics/icons/technology/raw-materials.png",
+    icon = "__bobplates__/graphics/icons/technology/resources.png",
   },
   
     {

@@ -15,9 +15,10 @@ data.raw["technology"]["productivity-module-3"].icon = "__bobmodules__/graphics/
 
 data.raw["technology"]["armor-making"].order = "a-a-e"
 data.raw["technology"]["plastics"].order = "b-b-b-a"
+data.raw["technology"]["stone-walls"].prerequisites = {"concrete"}
 
-bobmods.lib.add_technology_prerequisite("stone-walls", "concrete")
-bobmods.lib.add_technology.recipe("stone-walls", "chemical-furnace")
+--bobmods.lib.add_technology_prerequisite("stone-walls", "concrete")
+bobmods.lib.add_technology_recipe("stone-walls", "chemical-furnace")
 	
 -- RED SCIENCE TIER ONE	  RST1
 	  
@@ -115,7 +116,7 @@ data:extend({
 	{
     type = "technology",
     name = "electrolysis-1",
-    icon = "__HARDmod__/graphics/icons/technology/electrolysis.png",
+    icon = "__bobplates__/graphics/icons/technology/electrolysis.png",
 	prerequisites = {"chemical-processing-1"},
 	unit =
     {
@@ -143,7 +144,7 @@ data:extend({
   {
     type = "technology",
     name = "evaporators",
-    icon = "__HARDmod__/graphics/icons/technology/evaporation.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/evaporation.png",
     prerequisites =
     {
 	  "electrolysis-1", "air-compressor"
@@ -194,7 +195,7 @@ data:extend({
 	{
 		type = "technology",
 		name= "tin-and-lead-processing",
-		icon="__HARDmod__/graphics/icons/technology/tin-lead-plate.png",
+		icon="__HARDmod__/placeholder-graphics/icons/technology/tin-lead-plate.png",
 		prerequisites= {"advanced-material-processing"},
 		unit=
 		{
@@ -396,7 +397,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "extraction-technology",
-		icon = "__HARDmod__/graphics/icons/technology/extraction-technology.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/technology/extraction-technology.png",
 		unit =
 		{
 		  count = 30,
@@ -527,7 +528,7 @@ data:extend({
   {
     type = "technology",
     name = "advanced-material-processing",
-    icon = "__HARDmod__/graphics/icons/technology/electric-furnaces.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/electric-furnaces.png",
     effects =
     {
       {
@@ -740,7 +741,7 @@ data:extend({
    {
     type = "technology",
     name = "engine",
-    icon = "__HARDmod__/graphics/icons/technology/electric-motor.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/electric-motor.png",
     prerequisites = {"steel-processing", "automation-2", "zinc-and-brass-processing"},
 	unit =
     {
@@ -814,7 +815,7 @@ data:extend({
   {
     type = "technology",
     name = "advanced-material-processing-2",
-    icon = "__HARDmod__/graphics/icons/technology/electric-furnaces.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/electric-furnaces.png",
     prerequisites =
     {
 	  "advanced-material-processing",
@@ -1031,7 +1032,7 @@ data:extend({
   {
     type = "technology",
     name = "electrolysis-2",
-    icon = "__HARDmod__/graphics/icons/technology/electrolysis.png",
+    icon = "__bobplates__/graphics/icons/technology/electrolysis.png",
     prerequisites =
     {
       "electrolysis-1",
@@ -1253,7 +1254,7 @@ data:extend({
   {
     type = "technology",
     name = "automobilism",
-    icon = "__HARDmod__/graphics/icons/technology/military-vehicles.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/military-vehicles.png",
     effects =
     {
       {
@@ -1278,7 +1279,7 @@ data:extend({
   {
     type = "technology",
     name = "laser",
-    icon = "__HARDmod__/graphics/icons/technology/laser.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/laser.png",
     prerequisites = {"optics", "advanced-electronics","air-handling"},
 	effects =
     {
@@ -1330,7 +1331,7 @@ data:extend({
   {
     type = "technology",
     name = "synthetic-rubber",
-    icon = "__HARDmod__/graphics/icons/technology/synthetic-rubber.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/synthetic-rubber.png",
     prerequisites = {"chemical-processing-3"},
 	unit =
     {
@@ -1367,7 +1368,7 @@ data:extend({
   {
     type = "technology",
     name = "zinc-and-brass-processing",
-    icon = "__HARDmod__/graphics/icons/technology/zinc-and-brass-processing.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/zinc-and-brass-processing.png",
     prerequisites =
     {
 	  "tin-and-lead-processing",
@@ -1501,7 +1502,7 @@ data:extend({
       time = 30
     },
 	order = "b-c-f",
-	icon="__HARDmod__/graphics/icons/technology/gold-processing.png",
+	icon="__bobplates__/graphics/icons/technology/gold-processing.png",
     effects=
     {
 	  {
@@ -1952,7 +1953,7 @@ data:extend({
 	type = "technology",
     name= "titanium-processing",
     prerequisites= {"advanced-material-processing-2"},
-	icon="__HARDmod__/graphics/icons/technology/titanium-processing.png",
+	icon="__bobplates__/graphics/icons/technology/titanium-processing.png",
     unit=
     {
       count= 75,
@@ -2000,7 +2001,7 @@ data:extend({
 	type = "technology",
     name= "tungsten-processing",
     prerequisites= {"advanced-material-processing-2"},
-	icon="__HARDmod__/graphics/icons/technology/tungsten-processing.png",
+	icon="__bobplates__/graphics/icons/technology/tungsten-processing.png",
     unit=
     {
       count= 75,
@@ -2081,7 +2082,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "fertilizer",
-		icon = "__HARDmod__/graphics/icons/technology/fertilizer.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/technology/fertilizer.png",
 		prerequisites = {"tf-advanced-biotechnology"},
 		effects = {
 				{
@@ -2256,7 +2257,7 @@ data:extend({
   {
     type = "technology",
     name = "advanced-electronics-4",
-    icon = "__HARDmod__/graphics/icons/technology/microchip-fabrication.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/microchip-fabrication.png",
     prerequisites = {"advanced-electronics-3", "chemical-processing-4"},
     effects =
     {
@@ -2556,7 +2557,7 @@ data:extend({
   {
     type = "technology",
     name = "rocket-travel",
-    icon = "__HARDmod__/graphics/icons/technology/space-travel.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/technology/space-travel.png",
     effects =
     {
       {

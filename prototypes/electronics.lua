@@ -588,7 +588,7 @@ data:extend( {
   {
     type = "item",
     name = "module-case-mk1",
-    icon = "__bobelectronics__/graphics/icons/module-case.png",
+    icon = "__bobmodules__/graphics/icons/module-case.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module-intermediates",
     order = "c-0[module-case-mk1]",
@@ -670,7 +670,7 @@ data:extend( {
   {
     type = "item",
     name = "module-contact",
-    icon = "__bobelectronics__/graphics/icons/module-contact.png",
+    icon = "__bobmodules__/graphics/icons/module-contact.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "module-intermediates",
     order = "c-1[module-contact]",

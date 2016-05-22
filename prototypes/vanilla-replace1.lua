@@ -572,7 +572,7 @@ data:extend(
 	{
     type = "mining-tool",
     name = "wooden-axe",
-    icon = "__HARDmod__/graphics/icons/wooden-axe.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/wooden-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {

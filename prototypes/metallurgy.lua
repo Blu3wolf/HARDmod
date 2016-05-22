@@ -960,7 +960,7 @@ data:extend(
 		base_color = {r=0, g=0, b=0},
 		flow_color = {r=0.5, g=1.0, b=1.0},
 		max_temperature = -186,
-		icon = "__HARDmod__/placeholder-graphics/icons/titanium-tetrachloride.png",
+		icon = "__HARDmod__/graphics/icons/titanium-tetrachloride.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[liquid-air]"
@@ -1026,7 +1026,7 @@ data:extend(
 		base_color = {r=0, g=0, b=0},
 		flow_color = {r=0.5, g=1.0, b=1.0},
 		max_temperature = -186,
-		icon = "__HARDmod__/placeholder-graphics/icons/titanium-tetrachloride.png",
+		icon = "__HARDmod__/graphics/icons/titanium-tetrachloride.png",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[liquid-air]"

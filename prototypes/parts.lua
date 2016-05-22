@@ -113,7 +113,7 @@ data:extend(
   {
     type = "item",
     name = "tungsten-parts",
-    icon = "__HARDmod__/graphics/icons/tungsten-parts.png",
+    icon = "__bobplates__/graphics/icons/tungsten-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-gears",
     order = "c[parts]",
@@ -136,7 +136,7 @@ data:extend(
     {
     type = "item",
     name = "titanium-parts",
-    icon = "__HARDmod__/graphics/icons/titanium-parts.png",
+    icon = "__bobplates__/graphics/icons/titanium-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-gears",
     order = "d[parts]",
@@ -399,7 +399,7 @@ data:extend(
   {
     type = "item",
     name = "turbine",
-    icon = "__HARDmod__/graphics/icons/turbine.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/turbine.png",
 	flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "e[turbine]",

@@ -383,7 +383,7 @@ data:extend(
     base_color = {r=0.0, g=0.0, b=1.0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/placeholder-graphics/icons/argon-gas.png",
+    icon = "__HARDmod__/graphics/icons/argon-gas.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -397,7 +397,7 @@ data:extend(
 		subgroup = "liquid-to-gas",
 	order = "e",
 		energy_required = 1,
-		icon = "__HARDmod__/placeholder-graphics/icons/argon-gas.png",
+		icon = "__HARDmod__/graphics/icons/argon-gas.png",
 		ingredients =
 		{
 		  {type="fluid", name="liquid-argon", amount=1},
@@ -416,7 +416,7 @@ data:extend(
 			subgroup = "evaporation",
 			order = "e",
 		energy_required = 10,
-		icon = "__HARDmod__/placeholder-graphics/icons/argon-gas-to-atmosphere.png",
+		icon = "__HARDmod__/graphics/icons/argon-gas-to-atmosphere.png",
 		ingredients =
 		{
 		  {type="fluid", name="argon-gas", amount=10},
@@ -439,7 +439,7 @@ data:extend(
 			order = "z",
 		category = "evaporator-crafting",
 		energy_required = 10,
-		icon = "__HARDmod__/graphics/icons/water-evaporation.png",
+		icon = "__HARDmod__/placeholder-graphics/icons/water-evaporation.png",
 		ingredients =
 		{
 		  {type="fluid", name="water", amount=10},
@@ -663,7 +663,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "air-separation-unit",
-    icon = "__HARDmod__/palceholder-graphics/icons/air-separation-unit.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/air-separation-unit.png",
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "air-separation-unit"},
     max_health = 300,

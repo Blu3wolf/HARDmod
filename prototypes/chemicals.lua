@@ -13,7 +13,7 @@ data:extend(
     base_color = {r=0.4, g=0, b=0.4},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/placeholder-graphics/icons/ammonia.png",
+    icon = "__HARDmod__/graphics/icons/ammonia.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[ammonia]"
@@ -33,7 +33,7 @@ data:extend(
     {
 		{type="fluid", name="ammonia", amount=1},
     },
-    icon = "__HARDmod__/placeholder-graphics/icons/ammonia.png",
+    icon = "__HARDmod__/graphics/icons/ammonia.png",
     subgroup = "chemistry",
     enabled = "false",
     order = "b[fluid-chemistry]-c[ammonia]"
@@ -470,7 +470,7 @@ data:extend(
     base_color = {r=0.4, g=0, b=0.4},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__HARDmod__/placeholder-graphics/icons/butadiene.png",
+    icon = "__HARDmod__/graphics/icons/butadiene.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[butadiene]"
@@ -490,7 +490,7 @@ data:extend(
 		{type="fluid", name="butadiene", amount=5},
 		{type="fluid", name="hydrogen-gas", amount=10},
     },
-    icon = "__HARDmod__/placeholder-graphics/icons/butadiene.png",
+    icon = "__HARDmod__/graphics/icons/butadiene.png",
     subgroup = "chemistry",
     enabled = "false",
     order = "b[fluid-chemistry]-c[butadiene]"
@@ -535,7 +535,7 @@ data:extend(
       {type="fluid", name="oxygen-gas", amount=0.5}
     },
     subgroup = "chemical-electrolysis",
-    icon = "__HARDmod__/graphics/icons/water-electrolysis.png",
+    icon = "__HARDmod__/placeholder-graphics/icons/water-electrolysis.png",
     order = "b[fluid-chemistry]-b[water-electrolysis]"
   },
   
@@ -1062,7 +1062,7 @@ data:extend(
   {
     type = "item",
     name = "tungsten-oxide",
-    icon = "__HARDmod__/graphics/icons/tungsten-oxide.png",
+    icon = "__bobplates__/graphics/icons/tungsten-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "chemical-furnace",
     order = "f[tungsten-oxide]",

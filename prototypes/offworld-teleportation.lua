@@ -312,7 +312,7 @@
   {
     type = "item",
     name = "mass-produced-power-armor",
-    icon = "__base__/placeholder-graphics/icons/power-armor.png",
+    icon = "__base__/graphics/icons/power-armor.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "armor",
     order = "a[solid-rocket-fuel]",
