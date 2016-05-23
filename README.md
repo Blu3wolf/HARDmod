@@ -18,6 +18,8 @@ HARDmod requires the following mods installed to work correctly:
 Bob's Library must be enabled in the game UI for HARDmod to function correctly. Bob's MCI and Modules mods must be disabled in the game UI for HARDmod to function correctly, but the mod folders must still be present! This is to avoid distributing unlicensed content of those mods, specifically certain graphics which are not included with HARDmod that are originally part of Bob's mods.
 
 HARDmod is created by Bill 'Blu3wolf' Teale as a successor to NARMod by damienreave. All content of HARDmod, unless otherwise indicated, is Copyright (C) 2016 Bill 'Blu3wolf' Teale. 
+
+Certain graphics contained in HARDmod were originally published in Factorio by Wube. These graphics are Copyright (C) 2012 Wube Software, and are used IAW the EULA. 
     
 Certain graphics and designs contained in HARDmod were originally published in F-mod. These graphics and designs are Copyright (C) 2013 Ficolas, and are used under the CC-BY-NC license. 
 
