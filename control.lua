@@ -1,6 +1,7 @@
-require "utils"
-require "defines"
-require "interfaces"
+require("utils")
+require("defines")
+require("interfaces")
+require("scripts.decoratives")
 
 remote.add_interface("hardmod",
 {
