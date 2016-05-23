@@ -492,7 +492,7 @@ data:extend(
 		{
 			{
 				filename = "__HARDmod__/placeholder-graphics/entity/workshop/workshop.png",
-				width = 212,
+				width = 180,
 				height = 180,
 			}
 		}
@@ -514,10 +514,10 @@ data:extend(
         percent = 70
       }
     },
-    selection_box = {{-2.5, -2.5}, {2.0, 2.5}},
+    selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
     animation=
     {
-      filename= "__HARDmod__/placeholder-graphics/entity/workshop/workshop-blank.png",
+      filename= "__HARDmod__/graphics/entity/workshop/workshop-blank.png",
       priority= "medium",
       width= 1,
       height= 1,

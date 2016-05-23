@@ -13,11 +13,11 @@ function BuiltEntity(event)
 end
 
 function MinedEntity(event)
-	if event.entity.name == "workshop-placeable" then
+	if event.entity.name == "workshop" then
 		local b = event.entity
 		local X = b.position.x
 		local Y = b.position.y   
-		lamp =   b.surface.find_entities_filtered{area = {{X - 1.0, Y - 1.0 }, {X + 1.0  , Y + 1.0 }}, name= "workshop"}
+		lamp =   b.surface.find_entities_filtered{area = {{X - 1.0, Y - 1.0 }, {X + 1.0  , Y + 1.0 }}, name= "workshop-placeable"}
 		if lamp[1] ~= nil then
 			lamp[1].destroy()   
 		end
