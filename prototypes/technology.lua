@@ -21,6 +21,9 @@ data.raw["technology"]["plastics"].order = "b-b-b-a"
 
 --bobmods.lib.add_technology_prerequisite("stone-walls", "concrete")
 bobmods.lib.add_technology_recipe("stone-walls", "chemical-furnace")
+bobmods.lib.add_technology_recipe("stone-walls", "stone-brick")
+bobmods.lib.add_technology_recipe("stone-walls", "cement")
+
 	
 -- RED SCIENCE TIER ONE	  RST1
 	  
