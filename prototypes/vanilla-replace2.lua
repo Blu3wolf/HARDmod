@@ -25,6 +25,10 @@ data.raw["straight-rail"]["straight-rail"].resistances =
 			percent = 80
 		},
 		{
+			type = "acid",
+			percent = 70
+		},
+		{
 			type = "explosion",
 			percent = 20
 		}
@@ -38,6 +42,10 @@ data.raw["curved-rail"]["curved-rail"].resistances =
 		{
 			type = "fire",
 			percent = 80
+		},
+		{
+			type = "acid",
+			percent = 70
 		},
 		{
 			type = "explosion",
