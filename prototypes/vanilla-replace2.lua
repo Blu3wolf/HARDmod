@@ -14,6 +14,38 @@ data.raw["tool"]["science-pack-3"].icon = "__HARDmod__/placeholder-graphics/icon
 data.raw["tool"]["alien-science-pack"].icon = "__HARDmod__/graphics/icons/science-packs/science-pack-4.png"
 data.raw["item"]["green-wire"].subgroup = "storage"
 data.raw["item"]["red-wire"].subgroup = "storage"
+data.raw["straight-rail"]["straight-rail"].resistances = 
+	{
+		{
+			type = "physical",
+			percent = 90
+		},
+		{
+			type = "fire",
+			percent = 80
+		},
+		{
+			type = "explosion",
+			percent = 20
+		}
+	}
+data.raw["curved-rail"]["curved-rail"].resistances = 
+	{
+		{
+			type = "physical",
+			percent = 90
+		},
+		{
+			type = "fire",
+			percent = 80
+		},
+		{
+			type = "explosion",
+			percent = 20
+		}
+	}
+
+
 
 
 data:extend(
