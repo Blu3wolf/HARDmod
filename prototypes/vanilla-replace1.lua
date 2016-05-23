@@ -474,11 +474,35 @@ data:extend(
     result = "basic-mining-drill"
   },
   
+  --WORKSHOP
+	
+	{
+		type = "decorative",
+		name = "workshop-placeable",
+		flags = 
+		{
+			"placeable-neutral",
+			"placeable-player",
+		},
+		icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
+		selectable_in_game = false,
+		render_layer = "decorative",
+		order = "e[workshop]",
+		pictures = 
+		{
+			{
+				filename = "__HARDmod__/placeholder-graphics/entity/workshop/workshop.png",
+				width = 180,
+				height = 180,
+			}
+		}
+	},
+	
   {
     type = "assembling-machine",
     name = "workshop",
-    icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
-    flags = {"placeable-neutral", "placeable-player", "player-creation"},
+    icon = "__HARDmod__/graphics/icons/workshop.png",
+    flags = {"player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "workshop"},
     max_health = 200,
     corpse = "big-remnants",
@@ -490,17 +514,15 @@ data:extend(
         percent = 70
       }
     },
-    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
-    selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
     animation=
     {
-      filename= "__HARDmod__/placeholder-graphics/entity/workshop/workshop.png",
+      filename= "__HARDmod__/graphics/entity/workshop/workshop-blank.png",
       priority= "medium",
-      width= 212,
-      height= 180,
+      width= 1,
+      height= 1,
       line_length= 5,
-      frame_count= 1,
-	  shift = {0.8, 0.18}
+      frame_count= 1
     },
     crafting_categories = {"workshop-crafting"},
     crafting_speed = 0.25,
@@ -547,10 +569,10 @@ data:extend(
     name = "workshop",
 	subgroup = "alt-production",
 	order = "a",
-    icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
+    icon = "__HARDmod__/graphics/icons/workshop.png",
     flags = {"goes-to-quickbar"},
     order = "e[workshop]",
-    place_result = "workshop",
+    place_result = "workshop-placeable",
     stack_size = 5
   },
 	
