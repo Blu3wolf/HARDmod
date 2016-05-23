@@ -1,4 +1,5 @@
-	
+
+--[[	
 data.raw["technology"]["speed-module"].icon = "__bobmodules__/graphics/icons/speed-module-1.png"
 data.raw["technology"]["speed-module-2"].icon = "__bobmodules__/graphics/icons/speed-module-2.png"
 data.raw["technology"]["speed-module-3"].icon = "__bobmodules__/graphics/icons/speed-module-3.png"
@@ -10,12 +11,13 @@ data.raw["technology"]["effectivity-module-3"].icon = "__bobmodules__/graphics/i
 data.raw["technology"]["productivity-module"].icon = "__bobmodules__/graphics/icons/productivity-module-1.png"
 data.raw["technology"]["productivity-module-2"].icon = "__bobmodules__/graphics/icons/productivity-module-2.png"
 data.raw["technology"]["productivity-module-3"].icon = "__bobmodules__/graphics/icons/productivity-module-3.png"
+--]]
 
 -- VANILLA TECH ORDERING
 
 data.raw["technology"]["armor-making"].order = "a-a-e"
 data.raw["technology"]["plastics"].order = "b-b-b-a"
-data.raw["technology"]["stone-walls"].prerequisites = {"concrete"}
+--data.raw["technology"]["stone-walls"].prerequisites = {"concrete"}
 
 --bobmods.lib.add_technology_prerequisite("stone-walls", "concrete")
 bobmods.lib.add_technology_recipe("stone-walls", "chemical-furnace")
