@@ -501,7 +501,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "workshop",
-    icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
+    icon = "__HARDmod__/graphics/icons/workshop.png",
     flags = {"player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "workshop"},
     max_health = 200,
@@ -569,7 +569,7 @@ data:extend(
     name = "workshop",
 	subgroup = "alt-production",
 	order = "a",
-    icon = "__HARDmod__/placeholder-graphics/icons/workshop.png",
+    icon = "__HARDmod__/graphics/icons/workshop.png",
     flags = {"goes-to-quickbar"},
     order = "e[workshop]",
     place_result = "workshop-placeable",
