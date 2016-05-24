@@ -25,9 +25,9 @@ Certain graphics and designs contained in HARDmod were originally published in F
 
 Certain graphics and designs contained in HARDmod were originally published in NARMod. These graphics and designs are Copyright (C) 2015 Damien Reave, and are used under the CC-BY-NC license.
 
-Certain icons for electronic circuit boards contained in HARDmod were published to the Factorio forums by Cheutz. These icons are Copyright (C) 2016 Cheutz and are used under the CC-BY-NC license.
+Certain icons for electronic circuit boards contained in HARDmod were published to the Factorio forums by Chreutz. These icons are Copyright (C) 2016 Chreutz, and are used under the CC-BY-NC license.
 
-Some placeholder graphics for intermediate parts contained in HARDmod alpha versions were originally published in DyTech. These placeholder graphics are Copyright (C) 2014 Dysoch, and will be removed before the full release. Their use here is unlicensed, and does not imply permission for use has been granted. 
+Certain icons for intermediate parts contained in HARDmod were originally published in DyTech. These icons are Copyright (C) 2014 Dysoch, and are used under the CC-BY-NC license. 
     
 All other content is Copyright (C) 2016  Bill 'Blu3wolf' Teale.
 
