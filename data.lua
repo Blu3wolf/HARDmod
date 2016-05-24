@@ -25,8 +25,6 @@ require("prototypes.vanilla-replace2")
 require("prototypes.vanilla-stack-size")
 require("prototypes.vanilla-warfare")
 
-require("prototypes.ores.haematite")
-
 require("prototypes.ores.ores")
 
 if hardmod.ChallengeMode == true then
