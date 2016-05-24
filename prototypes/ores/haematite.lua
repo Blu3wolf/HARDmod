@@ -1,10 +1,10 @@
 hardmod.ores.haematite =
 {
   name = "haematite-ore",
-  tint = {r=0.34, g=0.9, b=0.81},
-  map_color = {r=0.47, g=1, b=0.96},
-  hardness = 1.4,
-  mining_time = 2,
+  tint = {r=0.75294, g=0.26274, b=0.13725},
+  map_color = {r=0.75294, g=0.26274, b=0.13725},
+  hardness = 0.9,
+  mining_time = 1.5,
   enabled = true,
   icon = "__bobores__/graphics/icons/zinc-ore.png",
   stage_mult = 10,
@@ -16,7 +16,7 @@ hardmod.ores.haematite =
   },
   sprite =
   {
-    sheet = 2
+    sheet = 1
   },
   autoplace =
   {
