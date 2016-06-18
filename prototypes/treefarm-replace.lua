@@ -45,6 +45,7 @@ data.raw["recipe"]["tf-bioreactor"].ingredients = {
 }
 data.raw["recipe"]["tf-bioreactor"].energy_required = 20
 data.raw["item"]["tf-stone-crusher"].subgroup = "production-machine"
+data.raw["furnace"]["tf-stone-crusher"].crafting_categories = {"crushing"}
 data.raw["recipe"]["tf-stone-crusher"].enabled = "true"
 bobmods.lib.remove_technology_recipe("tf-fertilizer", "tf-stone-crusher")
 data.raw["item"]["tf-stone-crusher"].icon = "__HARDmod__/placeholder-graphics/icons/crusher.png"
