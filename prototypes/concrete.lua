@@ -1,4 +1,4 @@
-data.raw["recipe"]["tf-crushed-stone"].category = crushing
+data.raw["recipe"]["tf-crushed-stone"].category = "crushing"
 data.raw["recipe"]["tf-crushed-stone"].energy_required = 10
 data.raw["recipe"]["tf-crushed-stone"].subgroup = "raw-ores"
 data.raw["recipe"]["tf-crushed-stone"].result_count = 1
